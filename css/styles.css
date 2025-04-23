@@ -1,0 +1,163 @@
+/* Custom styles for mobile menu */
+@media (max-width: 768px) {
+    .mobile-menu-open {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-menu.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        padding: 1rem;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Product card hover effects */
+.product-card:hover .product-info {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Enhanced Product card styles */
+.product-card:hover .product-info {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Product grid spacing for larger screens */
+@media (min-width: 768px) {
+    #products .grid {
+        gap: 3rem;
+    }
+    
+    #products .grid > div {
+        min-height: 400px;
+    }
+
+    #products .grid > div .h-64 {
+        height: 400px;
+    }
+}
+
+/* Product grid spacing for larger screens */
+@media (min-width: 1024px) {
+    #products .grid {
+        gap: 2rem;
+    }
+    
+    #products .grid > div {
+        min-height: 450px;
+    }
+
+    #products .grid > div .h-64 {
+        height: 350px;
+    }
+}
+
+/* Ensure cards take up proper space on medium screens */
+@media (min-width: 768px) and (max-width: 1023px) {
+    #products .grid > div {
+        min-height: 400px;
+    }
+}
+
+/* Product card hover animation */
+#products .grid > div {
+    transition: all 0.3s ease-in-out;
+}
+
+#products .grid > div:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Product card hover styles */
+#products .grid > div:hover .absolute {
+    opacity: 1;
+}
+
+#products .grid > div .absolute {
+    background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.5) 50%, transparent 100%);
+}
+
+/* Product description text */
+#products .grid .text-base {
+    line-height: 1.6;
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+}
+
+/* Form focus states */
+input:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: #2563eb;
+    ring-color: #93c5fd;
+}
+
+/* Custom animations */
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Utility classes */
+.text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.gradient-bg {
+    background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #93c5fd;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #60a5fa;
+}
+
+/* Service dropdown styles */
+.services-dropdown {
+    transition: all 0.3s ease;
+}
+
+.services-dropdown.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
