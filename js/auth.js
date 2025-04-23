@@ -24,7 +24,13 @@ function handleLogin(e) {
 
     if (user) {
         localStorage.setItem('currentUser', JSON.stringify(user));
-        window.location.href = '../index.html';
+        const returnUrl = localStorage.getItem('returnUrl');
+        if (returnUrl) {
+            localStorage.removeItem('returnUrl');
+            window.location.href = returnUrl;
+        } else {
+            window.location.href = '../index.html';
+        }
     } else {
         alert('Invalid credentials');
     }

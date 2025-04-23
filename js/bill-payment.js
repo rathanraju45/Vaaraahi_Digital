@@ -1,11 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Check if user is logged in
-    const currentUser = localStorage.getItem('currentUser');
-    if (!currentUser) {
-        window.location.href = 'login.html';
-        return;
-    }
-
     const billPaymentForm = document.getElementById('billPaymentForm');
     const serviceTypeSelect = document.getElementById('serviceType');
     const mobileFields = document.getElementById('mobileFields');
