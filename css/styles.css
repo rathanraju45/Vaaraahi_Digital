@@ -1,5 +1,39 @@
-/* Custom styles for mobile menu */
+/* Custom styles for mobile and tablet menu */
 @media (max-width: 768px) {
+    nav {
+        height: 64px;
+    }
+
+    /* Mobile menu container */
+    nav [x-show="mobileMenuOpen"] {
+        background-color: #263238;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Mobile menu items */
+    nav .space-y-3 a, 
+    nav .space-y-3 button {
+        padding: 0.75rem 0;
+        display: block;
+        width: 100%;
+    }
+
+    /* Mobile services dropdown */
+    nav [x-show="mobileServicesOpen"] {
+        padding: 0.5rem 0;
+        margin-top: 0.5rem;
+    }
+
+    nav [x-show="mobileServicesOpen"] a {
+        padding: 0.5rem 0;
+    }
+
+    /* Add border to separate sections */
+    nav .border-t {
+        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+
     .mobile-menu-open {
         display: block;
     }
@@ -21,6 +55,207 @@
     }
 }
 
+/* Tablet-specific styles */
+@media (min-width: 769px) and (max-width: 1023px) {
+    /* Navigation bar height and spacing */
+    nav {
+        height: 70px;
+    }
+
+    nav .container {
+        max-width: 100%;
+        padding: 0 1.25rem;
+    }
+
+    /* Logo size for tablets */
+    nav img.h-10 {
+        height: 2.75rem;
+    }
+
+    /* Navigation items layout */
+    .md\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-x-reverse: 0;
+        margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+        margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+    }
+
+    /* Navigation text and buttons */
+    nav a:not(.bg-blue-600),
+    nav button.text-gray-300 {
+        font-size: 0.95rem;
+        padding: 0.5rem 0.75rem;
+    }
+
+    /* Action buttons (Login/Register) */
+    .md\:flex.items-center.space-x-4 {
+        gap: 0.75rem;
+    }
+
+    /* Register button size */
+    nav a[href*="register"] {
+        padding: 0.5rem 1rem;
+        font-size: 0.95rem;
+    }
+
+    /* Services dropdown menu */
+    nav .relative [x-show="open"] {
+        width: 180px;
+        left: 50%;
+        transform: translateX(-50%) translateY(0.5rem);
+    }
+
+    nav .relative [x-show="open"] a {
+        padding: 0.625rem 1rem;
+        font-size: 0.95rem;
+    }
+
+    /* Adjust container width for better content spacing */
+    .container {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+}
+
+/* Improved tablet grid layouts */
+@media (min-width: 769px) and (max-width: 1023px) {
+    .md\:grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .md\:grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .md\:grid-cols-4 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* Tablet grid and layout optimizations */
+@media (min-width: 769px) and (max-width: 1023px) {
+    /* Container width for better spacing */
+    .container {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    /* Section spacing */
+    section {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    /* Grid layouts */
+    .grid-cols-1.md\:grid-cols-4 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* Product cards */
+    #products .grid > div {
+        min-height: 380px;
+    }
+
+    /* Contact form layout */
+    #contact .grid {
+        gap: 1.5rem;
+    }
+
+    /* Footer adjustments */
+    footer .grid-cols-1.md\:grid-cols-4 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 2rem;
+    }
+
+    /* Hero section text */
+    #home h1 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+
+    #home p {
+        font-size: 1.125rem;
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Tablet navigation refinements */
+@media (min-width: 769px) and (max-width: 1023px) {
+    /* Navigation spacing */
+    .md\:flex.items-center.md\:items-stretch.flex-grow {
+        padding: 0 0.5rem;
+    }
+
+    /* Space between nav items */
+    .space-x-6 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-x-reverse: 0;
+        margin-right: calc(1rem * var(--tw-space-x-reverse));
+        margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+    }
+
+    /* Services dropdown refinements */
+    nav .relative [x-show="open"] {
+        width: 160px;
+        transform: translateX(-45%) translateY(0.5rem);
+    }
+
+    /* Login/Register buttons */
+    .md\:flex.items-center.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+        --tw-space-x-reverse: 0;
+        margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+        margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+    }
+
+    /* Adjust logo size */
+    nav .flex.items-center img {
+        height: 2.75rem;
+    }
+}
+
+/* Tablet-specific hero and dropdown refinements */
+@media (min-width: 769px) and (max-width: 1023px) {
+    /* Hero section adjustments */
+    .pt-24 {
+        padding-top: 5rem;
+    }
+
+    /* Services dropdown positioning fix */
+    nav .relative [x-show="open"] {
+        width: 160px;
+        left: 0;
+        transform: translateY(0.75rem);
+    }
+
+    /* Prevent dropdown from being cut off */
+    nav .relative {
+        position: static;
+    }
+
+    nav .relative > div[x-show="open"] {
+        position: absolute;
+        top: 100%;
+    }
+
+    /* Navigation spacing in container */
+    nav .container {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    /* Logo scaling */
+    nav .flex.items-center img {
+        height: 2.5rem;
+        margin: 0.75rem 0;
+    }
+
+    /* Adjust navigation items spacing */
+    .space-x-6 > :not([hidden]) ~ :not([hidden]) {
+        margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+        margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+    }
+}
+
 /* Navbar styles */
 nav {
     height: 80px; /* Increased navbar height */
@@ -36,8 +271,14 @@ nav .flex.justify-between {
 
 /* Logo size */
 nav img.h-10 {
-    height: 3.5rem; /* Increased logo size */
+    height: 2.5rem;
     transition: transform 0.3s ease;
+}
+
+@media (min-width: 768px) {
+    nav img.h-10 {
+        height: 3.5rem;
+    }
 }
 
 nav img.h-10:hover {
@@ -45,7 +286,8 @@ nav img.h-10:hover {
 }
 
 /* Nav menu items */
-nav a:not(.bg-blue-600) {
+nav a:not(.bg-blue-600),
+nav button.text-gray-300 {
     position: relative;
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
@@ -53,15 +295,26 @@ nav a:not(.bg-blue-600) {
     transition: all 0.3s ease;
 }
 
-nav a:not(.bg-blue-600):hover {
+nav a:not(.bg-blue-600):hover,
+nav button.text-gray-300:hover {
     background-color: rgba(255, 255, 255, 0.1);
     transform: translateY(-2px);
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
-/* Services dropdown button */
+/* Dropdown menu transitions */
+nav [x-show="open"],
+nav [x-show="mobileMenuOpen"],
+nav [x-show="mobileServicesOpen"] {
+    transition: all 0.3s ease;
+}
+
+/* Services dropdown button - improved design */
 nav button.text-gray-300 {
     position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
     padding: 0.5rem 1rem;
     font-size: 1.1rem;
     border-radius: 0.375rem;
@@ -72,6 +325,27 @@ nav button.text-gray-300:hover {
     background-color: rgba(255, 255, 255, 0.1);
     transform: translateY(-2px);
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Improved dropdown arrow alignment */
+nav button.text-gray-300 svg {
+    width: 1rem;
+    height: 1rem;
+    transition: transform 0.2s ease;
+    position: relative;
+    top: 1px;
+}
+
+/* Services dropdown menu */
+nav [x-show="open"] {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+nav [x-show="open"] a {
+    padding: 0.75rem 1rem;
+    transition: all 0.2s ease;
 }
 
 /* Smooth scroll behavior */
@@ -318,8 +592,8 @@ section:not(#home)::before {
 
 /* Card backgrounds */
 .bg-white {
-    background: rgba(255, 255, 255, 0.05) !important;
-    backdrop-filter: blur(1px);
+    background: rgba(255, 255, 255, 0.7) !important;
+    backdrop-filter: blur(4px);
 }
 
 /* Auth card backgrounds */
@@ -384,4 +658,20 @@ section:not(#home)::before {
 .plan-card:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Coming soon page styles */
+.coming-soon-card {
+    background: rgba(255, 255, 255, 0.9) !important;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.coming-soon-card .border.rounded-lg {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(4px);
+}
+
+.bg-gray-50 {
+    background: transparent !important;
 }
