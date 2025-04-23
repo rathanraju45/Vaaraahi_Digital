@@ -1,0 +1,383 @@
+{
+  "airtel": {
+    "unlimited": {
+      "199": {
+        "validity": "28 days",
+        "calls": "Unlimited local, STD & Roaming",
+        "data": "2GB",
+        "sms": "100 SMS/day",
+        "details": "Revised price for 155 & 179 pack"
+      },
+      "219": {
+        "validity": "30 days",
+        "calls": "Unlimited local, STD & Roaming",
+        "data": "3GB",
+        "sms": "300",
+        "talktime": "Rs 5",
+        "details": "Revised price for Rs 199 pack"
+      },
+      "249": {
+        "validity": "24 days",
+        "calls": "Unlimited local, STD & Roaming",
+        "data": "1GB/Day",
+        "sms": "100 SMS/Day"
+      },
+      "299": {
+        "validity": "28 days",
+        "calls": "Unlimited local, STD & Roaming",
+        "data": "1GB/Day",
+        "sms": "100 SMS/Day"
+      },
+      "301": {
+        "validity": "28 days",
+        "calls": "Unlimited local STD & Roaming",
+        "data": "1GB/Day",
+        "sms": "100/Day",
+        "details": "JioHotstar Mobile subscription for 3 months"
+      },
+      "349": {
+        "validity": "28 days",
+        "calls": "Unlimited local, STD & Roaming",
+        "data": "1.5GB/Day",
+        "sms": "100SMS/day",
+        "details": "You can also recharge with above plan instead of Rs 299 plan pack"
+      },
+      "355": {
+        "validity": "30 days",
+        "calls": "Unlimited local, STD & Roaming",
+        "data": "25GB",
+        "sms": "100 SMS/day",
+        "details": "Revised price for Rs 296 pack"
+      },
+      "379": {
+        "validity": "1 month",
+        "calls": "Unlimited local STD & Roaming",
+        "data": "2GB/day",
+        "sms": "100 SMS/day",
+        "details": "UNLIMITED 5G data (over & above plan limit), Revised price for Rs 319 pack"
+      },
+      "398": {
+        "validity": "28 days",
+        "calls": "Unlimited local, STD & Roaming",
+        "data": "2GB/Day",
+        "sms": "100/Day",
+        "details": "JioHotstar mobile subscription for 28 days UNLIMITED 5G data (over & above plan limit) claim on Airtel Thanks App"
+      },
+      "409": {
+        "validity": "28 days",
+        "calls": "Unlimited local STD & Roaming",
+        "data": "2.5GB/Day",
+        "sms": "100/Day",
+        "details": "Airtel Xstream Play subscription for 28 days, UNLIMITED 5G data (over & above plan limit)",
+        "talktime": "Rs 5"
+      },
+      "429": {
+        "validity": "1 month",
+        "calls": "Unlimited local STD & Roaming",
+        "data": "2.5GB/Day",
+        "sms": "100/Day",
+        "talktime": "Rs 5",
+        "details": "UNLIMITED 5G data (over & above plan limit), Revised price for Rs 359 pack"
+      },
+      "449": {
+        "validity": "28 days",
+        "calls": "Unlimited local STD & Roaming",
+        "data": "3GB/Day",
+        "sms": "100/Day",
+        "details": "Airtel Xstream Play subscription for 28 days, UNLIMITED 5G data (over & above plan limit), Revised price for Rs 399 pack"
+      },
+      "469": {
+        "validity": "84 days",
+        "calls": "Unlimited local STD & Roaming",
+        "sms": "900"
+      },
+      "489": {
+        "validity": "77 days",
+        "calls": "Unlimited Local, STD & Roaming",
+        "data": "6 GB",
+        "sms": "600",
+        "details": "Revised price for Rs 395 pack"
+      },
+      "548": {
+        "validity": "84 days",
+        "calls": "Unlimited local STD & Roaming",
+        "data": "7 GB",
+        "sms": "900"
+      },
+      "549": {
+        "validity": "28 days",
+        "calls": "Unlimited local STD & Roaming",
+        "data": "3 GB per day",
+        "sms": "100 per day",
+        "details": "ZEE5 & Airtel Xstream Play Premium for 28 days and JioHotstar Mobile for 3 months"
+      },
+      "579": {
+        "validity": "56 days",
+        "calls": "Unlimited local STD & Roaming",
+        "data": "1.5GB/Day",
+        "sms": "100/Day"
+      },
+      "589": {
+        "validity": "30 days",
+        "calls": "Unlimited local STD & Roaming",
+        "data": "50GB",
+        "sms": "300",
+        "details": "Revised price for Rs 489 pack"
+      },
+      "609": {
+        "validity": "1 month",
+        "calls": "Unlimited local STD & Roaming",
+        "data": "60GB",
+        "sms": "300",
+        "details": "Revised price for Rs 509 pack"
+      },
+      "619": {
+        "validity": "60 days",
+        "calls": "Unlimited local STD & Roaming",
+        "data": "1.5GB/Day",
+        "sms": "100/Day"
+      },
+      "649": {
+        "validity": "56 days",
+        "calls": "Unlimited Local STD & Roaming",
+        "data": "2GB/Day",
+        "sms": "100/Day",
+        "details": "Airtel Xstream Play subscription for 56 days, UNLIMITED 5G data (over & above plan limit), Revised price for Rs 549 pack"
+      },
+      "799": {
+        "validity": "77 days",
+        "calls": "Unlimited Local STD & Roaming",
+        "data": "1.5GB/Day",
+        "sms": "100 SMS/Day"
+      },
+      "838": {
+        "validity": "56 days",
+        "calls": "Unlimited local STD & Roaming",
+        "data": "3GB/Day",
+        "sms": "100/Day",
+        "details": "56 days Amazon Prime Lite subscription, Airtel Xstream Play subscription for 56 days, UNLIMITED 5G data (over & above plan limit)"
+      },
+      "859": {
+        "validity": "84 days",
+        "calls": "Unlimited Local STD & Roaming calls",
+        "data": "1.5GB/day",
+        "sms": "100 per day",
+        "details": "Airtel Mini Rewards123 3 months, Revised price for Rs 719 pack"
+      },
+      "929": {
+        "validity": "90 days",
+        "calls": "Unlimited local STD & Roaming",
+        "data": "1.5GB/Day",
+        "sms": "100/Day"
+      },
+      "979": {
+        "validity": "84 days",
+        "calls": "Unlimited local STD & Roaming",
+        "data": "2GB/Day",
+        "sms": "100/Day",
+        "details": "Airtel Xstream Play subscription for 84 days & Cashback of upto Rs 80/month for 3 months with Airtel Mini Rewards123, UNLIMITED 5G data (over & above plan limit), Revised price for Rs 839 pack"
+      },
+      "1029": {
+        "validity": "84 days",
+        "calls": "Unlimited local STD & Roaming",
+        "data": "2GB/Day",
+        "sms": "100/Day",
+        "details": "JioHotstar Mobile subscription for 3 months & Cashback of upto Rs 80/month for 3 months with Airtel Mini Rewards123, UNLIMITED 5G data (over & above plan limit)"
+      },
+      "1199": {
+        "validity": "84 days",
+        "calls": "Unlimited Local STD & Roaming calls",
+        "data": "2.5GB/day",
+        "sms": "100 per day",
+        "details": "Amazon Prime Lite 84 days, Airtel Xstream play for 84 days, Airtel Mini Rewards123 90 days, UNLIMITED 5G data (over & above plan limit)"
+      },
+      "1798": {
+        "validity": "84 days",
+        "calls": "Unlimited local, STD & Roaming",
+        "data": "3GB/Day",
+        "sms": "100/Day",
+        "details": "Netflix Basic subscription for 84 days, UNLIMITED 5G data (over & above plan limit), Revised price for Rs 1499 pack"
+      },
+      "1849": {
+        "validity": "365 days",
+        "calls": "Unlimited local STD & Roaming",
+        "sms": "3600"
+      },
+      "2249": {
+        "validity": "365 days",
+        "calls": "Unlimited local STD & Roaming",
+        "data": "30GB",
+        "sms": "3600"
+      },
+      "3599": {
+        "validity": "365 days",
+        "calls": "Unlimited local STD & Roaming",
+        "data": "2GB/day",
+        "sms": "100SMS/day",
+        "details": "UNLIMITED 5G data (over & above plan limit), Revised price for Rs 2999 pack"
+      },
+      "3999": {
+        "validity": "365 days",
+        "calls": "Unlimited local, STD & Roaming",
+        "data": "2.5GB/day",
+        "sms": "100SMS/day",
+        "details": "JioHotstar Mobile subscription for 1 year, UNLIMITED 5G data (over & above plan limit)"
+      }
+    },
+    "data": {
+      "11": {
+        "validity": "1 hour",
+        "data": "10GB data with per hour with high speed, there after Unlimited data with speed upto 64Kbps"
+      },
+      "22": {
+        "validity": "1 day",
+        "data": "1GB",
+        "details": "1GB data valid for the same day till midnight, Revised price for Rs 19 pack"
+      },
+      "26": {
+        "validity": "1 day",
+        "data": "1.5GB",
+        "details": "1.5GB data valid for the same day till midnight"
+      },
+      "33": {
+        "validity": "1 day",
+        "data": "2GB",
+        "details": "2GB data valid for the same day till midnight, Revised price for Rs 29 pack"
+      },
+      "49": {
+        "validity": "1 day",
+        "data": "20GB data with per day with high speed, there after Unlimited data with speed upto 64Kbps"
+      },
+      "77": {
+        "validity": "7 days",
+        "data": "5GB"
+      },
+      "99": {
+        "validity": "2 days",
+        "data": "20GB data with per day with high speed, there after Unlimited data with speed upto 64Kbps"
+      },
+      "100": {
+        "validity": "30 days",
+        "data": "5GB",
+        "details": "JioHotstar Mobile subscription for 30 days; Upgrade from Rs. 77 pack to enjoy extra benefits"
+      },
+      "121": {
+        "validity": "30 days",
+        "data": "6GB"
+      },
+      "149": {
+        "validity": "existing",
+        "data": "1GB",
+        "details": "20+ OTTs with Airtel Xstream Play for 30 days"
+      },
+      "161": {
+        "validity": "30 days",
+        "data": "12 GB"
+      },
+      "181": {
+        "validity": "30 days",
+        "data": "15GB",
+        "details": "20+ OTTs with Airtel Xstream Play for 30 days"
+      },
+      "195": {
+        "validity": "90 days",
+        "data": "15GB",
+        "details": "JioHotstar Mobile subscription for 3 Months; Upgrade from Rs. 161 or Rs. 181 pack to enjoy extra benefits"
+      },
+      "211": {
+        "validity": "30 days",
+        "data": "1GB/day",
+        "details": "Revised price for Rs 181 pack"
+      },
+      "361": {
+        "validity": "30 days",
+        "data": "50GB"
+      },
+      "451": {
+        "validity": "30 days",
+        "data": "50GB",
+        "details": "JioHotstar Mobile subscription for 3 Months"
+      }
+    },
+    "talktime": {
+      "10": {
+        "validity": "na",
+        "talktime": "Rs 7.47"
+      },
+      "120": {
+        "validity": "na",
+        "talktime": "Rs 98.69"
+      },
+      "500": {
+        "validity": "na",
+        "talktime": "423.73"
+      },
+      "1000": {
+        "validity": "na",
+        "talktime": "847.46"
+      },
+      "5000": {
+        "validity": "na",
+        "talktime": "4237.29"
+      }
+    },
+    "international_roaming": {
+      "648": {
+        "validity": "1 day",
+        "details": "500 MB, 100mins IC+OG (IN+Local), 10 SMS (USA, Europe, Gulf, Asia, Africa & more)",
+        "info": "Know more, www.airtel.in/IR",
+        "note": "Revised price for Rs 649 pack"
+      },
+      "755": {
+        "validity": "5 days",
+        "details": "1 GB (USA, Europe, Gulf, Asia, Africa & more)",
+        "info": "To Know more, www.airtel.in/IR"
+      },
+      "756": {
+        "validity": "5 days",
+        "details": "100mins IC+OG (IN+Local) (USA, Europe, Gulf, Asia, Africa & more)",
+        "info": "To Know more, www.airtel.in/IR"
+      },
+      "899": {
+        "validity": "10 days",
+        "details": "1 GB, 100mins IC+OG (IN+Local), 20 SMS (USA, Europe, Gulf, Asia, Africa & more)",
+        "info": "To Know more, www.airtel.in/IR"
+      },
+      "2997": {
+        "validity": "365 days",
+        "details": "2 GB, 100mins IC+OG (IN+Local), 20 SMS (USA, Europe, Gulf, Asia, Africa & more)",
+        "info": "In-Flight- 250 MB, 100mins OG, 100 SMS, 24hrs validity (selected Intl flights)",
+        "note": "Know more, www.airtel.in/IR"
+      },
+      "2998": {
+        "validity": "30 days",
+        "details": "5 GB (+10GB for USA), 200mins IC+OG (IN+Local), 20 SMS (USA, Europe, Gulf & more)",
+        "info": "In-Flight- 250 MB, 100mins OG, 100 SMS, 24hrs validity (selected Intl flights)",
+        "note": "Know more www.airtel.in/IR"
+      }
+    },
+    "isd": {
+      "18": {
+        "validity": "28 days",
+        "details": "Enjoy ISD calling at discounted rates for 28 days. For country wise tariff visit www.airtel.in"
+      }
+    },
+    "inflight_roaming": {
+      "196": {
+        "validity": "1 day",
+        "details": "In-Flight - 250 MB, 100mins OG, No incoming calls, 100 SMS (selected Intl flights)",
+        "info": "For covered flights, visit www.airtel.in/IR"
+      },
+      "295": {
+        "validity": "1 day",
+        "details": "In-Flight - 500 MB, 100mins OG, No incoming calls, 100 SMS (selected Intl flights)",
+        "info": "For covered flights, visit www.airtel.in/IR"
+      },
+      "595": {
+        "validity": "1 day",
+        "details": "In-Flight - 1 GB, 100mins OG, No incoming calls, 100 SMS (selected Intl flights)",
+        "info": "For covered flights, visit www.airtel.in/IR"
+      }
+    }
+  }
+}

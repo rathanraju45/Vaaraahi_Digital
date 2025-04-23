@@ -1,0 +1,1029 @@
+{
+  "vi": {
+    "unlimited": {
+      "155": {
+        "validity": "20 days",
+        "calls": "Unlimited Calls",
+        "data": "1GB Data",
+        "sms": "300SMS",
+        "notes": [
+          "Data tariff post quota completion will be charged at 50p/MB",
+          "Post SMS quota charging will be Re 1 local Re 1.5 STD per SMS"
+        ]
+      },
+      "179": {
+        "validity": "24 days",
+        "calls": "Unlimited Calls",
+        "data": "1GB Data",
+        "sms": "300SMS",
+        "notes": [
+          "Data tariff post quota completion will be charged at 50p/MB",
+          "Post SMS quota charging will be Re 1 local Re 1.5 STD per SMS"
+        ]
+      },
+      "189": {
+        "validity": "26 days",
+        "calls": "Unlimited Calls",
+        "data": "1GB Data",
+        "sms": "300SMS",
+        "notes": [
+          "Data tariff post quota completion will be charged at 50p/MB",
+          "Post SMS quota charging will be Re 1 local Re 1.5 STD per SMS"
+        ]
+      },
+      "199": {
+        "validity": "28 days",
+        "calls": "Unlimited Calls",
+        "data": "2GB Data",
+        "sms": "300 SMS",
+        "notes": [
+          "Data tariff post quota completion will be charged at 50p/MB",
+          "Post SMS quota charging will be Re 1 local Re 1.5 STD per SMS"
+        ]
+      },
+      "209": {
+        "validity": "28 days",
+        "calls": "Unlimited Calls",
+        "data": "2GB Data",
+        "sms": "300 SMS",
+        "features": [
+          "Unlimited Callertunes for 28 days"
+        ],
+        "notes": [
+          "Data tariff post quota completion will be charged at 50p/MB",
+          "Post SMS quota charging will be Re 1 local Re 1.5 STD per SMS"
+        ]
+      },
+      "218": {
+        "validity": "1 month",
+        "calls": "Unlimited Calls",
+        "data": "3GB Data",
+        "sms": "300 SMS",
+        "notes": [
+          "Data tariff post quota completion will be charged at 50p/MB",
+          "Post SMS quota charging will be Re 1 local / Re 1.5 STD per SMS"
+        ]
+      },
+      "239": {
+        "validity": "28 days",
+        "calls": "Unlimited Calls",
+        "data": "2GB Data",
+        "sms": "300 SMS",
+        "features": [
+          "1 Month JioHotstar Mobile subscription"
+        ],
+        "notes": [
+          "Data tariff post quota completion will be charged at 50p/MB",
+          "Post SMS quota charging will be Re 1 local Re 1.5 STD per SMS"
+        ]
+      },
+      "249": {
+        "validity": "24 days",
+        "calls": "Unlimited Calls",
+        "data": "1 GB/Day",
+        "sms": "100 SMS/Day",
+        "notes": [
+          "Post daily quota, data speed will be upto 64Kbps",
+          "Post daily SMS quota charges applicable at Rs 1/1.5 for Local/STD SMS"
+        ]
+      },
+      "289": {
+        "validity": "40 days",
+        "calls": "Unlimited Calls",
+        "data": "4GB Data",
+        "sms": "600 SMS",
+        "notes": [
+          "Data tariff post quota completion will be charged at 50p/MB",
+          "Post SMS quota charging will be Re 1 local Re 1.5 STD per SMS"
+        ]
+      },
+      "299": {
+        "validity": "28 days",
+        "calls": "Unlimited Calls",
+        "data": "1 GB/Day",
+        "sms": "100 SMS/Day",
+        "notes": [
+          "Post daily quota, data speed will be upto 64Kbps",
+          "Post daily SMS quota charges applicable at Rs 1/1.5 for Local/STD SMS"
+        ]
+      },
+      "345": {
+        "validity": "30 days",
+        "calls": "Unlimited Calls",
+        "data": "25 GB",
+        "sms": "100 SMS/Day",
+        "notes": [
+          "Data tariff post quota completion will be charged at 50p/MB",
+          "Post SMS quota charging will be Re 1 local Re 1.5 STD per SMS"
+        ]
+      },
+      "349": {
+        "validity": "28 days",
+        "calls": "Unlimited Calls",
+        "data": "1.5 GB/Day",
+        "sms": "100 SMS/Day",
+        "features": [
+          "Unlimited Night data from 12am to 6am",
+          "Carry Mon-Fri unused data into Sat-Sun",
+          "2GB of backup Data every month at no extra Cost"
+        ],
+        "notes": [
+          "Post daily quota, data speed will be upto 64Kbps",
+          "Post daily SMS quota charges applicable at Rs 1/1.5 for Local/STD SMS"
+        ]
+      },
+      "365": {
+        "validity": "28 days",
+        "calls": "Unlimited Calls",
+        "data": "Full Day Unlimited Data, Everyday",
+        "sms": "100 SMS/Day",
+        "notes": [
+          "Post daily 100 SMS limit charging will be Re 1 local Re 1.5 STD per SMS",
+          "Unlimited Data is only meant for personal and non-commercial use",
+          "To check non-commercial usage policy, please visit Prepaid T&C"
+        ]
+      },
+      "369": {
+        "validity": "56 days",
+        "calls": "Unlimited Calls",
+        "data": "4GB Data",
+        "sms": "600 SMS",
+        "notes": [
+          "Data tariff post quota completion will be charged at 50p/MB",
+          "Post SMS quota charging will be Re 1 local Re 1.5 STD per SMS"
+        ]
+      },
+      "379": {
+        "validity": "1 month",
+        "calls": "Unlimited Calls",
+        "data": "Full Day Unlimited Data, Everyday",
+        "sms": "100 SMS/Day",
+        "notes": [
+          "Post daily SMS quota charges applicable at Rs 1/1.5 for Local/STD SMS",
+          "Unlimited Data is only meant for personal and non-commercial use",
+          "To check non-commercial usage policy, please visit Prepaid T&C"
+        ]
+      },
+      "399": {
+        "validity": "28 days",
+        "calls": "Unlimited Calls",
+        "data": "Full Day Unlimited data, Everyday",
+        "sms": "100 SMS/Day",
+        "features": [
+          "1 Month JioHotstar Mobile subscription"
+        ],
+        "notes": [
+          "Post daily SMS quota charges applicable at Rs 1/1.5 for Local/STD SMS",
+          "Unlimited Data is only meant for personal and non-commercial use",
+          "To check non-commercial usage policy, please visit Prepaid T&C"
+        ]
+      },
+      "408": {
+        "validity": "28 days",
+        "calls": "Unlimited Calls",
+        "data": "Full Day Unlimited Data, Everyday",
+        "sms": "100 SMS/Day",
+        "features": [
+          "28 Day SonyLIV subscription"
+        ],
+        "notes": [
+          "Post daily SMS quota charges applicable at Rs 1/1.5 for Local/STD SMS",
+          "Unlimited Data is only meant for personal and non-commercial use",
+          "To check non-commercial usage policy, please visit Prepaid T&C"
+        ]
+      },
+      "449": {
+        "validity": "28 days",
+        "calls": "Unlimited Calls",
+        "data": "Full Day Unlimited Data, Everyday",
+        "sms": "100 SMS/Day",
+        "features": [
+          "Watch ZEE5, SonyLIV, Lionsgate Play, Playflix, Fancode, Aaj Tak, Manoramax & many more on TV & Mobile",
+          "Enjoy 16 OTT Apps, 400 TV Channels in one subscription with Vi Movies & TV Super plan"
+        ],
+        "notes": [
+          "Post daily 100 SMS limit charging will be Re 1 local Re 1.5 STD per SMS",
+          "Unlimited Data is only meant for personal and non-commercial use",
+          "To check non-commercial usage policy, please visit Prepaid T&C"
+        ]
+      },
+      "469": {
+        "validity": "28 days",
+        "calls": "Unlimited Calls",
+        "data": "Full Day Unlimited data, Everyday",
+        "sms": "100 SMS/Day",
+        "features": [
+          "3 Months JioHotstar Mobile subscription"
+        ],
+        "notes": [
+          "Post daily SMS quota charges applicable at Rs 1/1.5 for Local/STD SMS",
+          "Unlimited Data is only meant for personal and non-commercial use",
+          "To check non-commercial usage policy, please visit Prepaid T&C"
+        ]
+      },
+      "470": {
+        "validity": "84 days",
+        "calls": "Unlimited Calls",
+        "sms": "900 SMS",
+        "notes": [
+          "Post SMS quota charging will be Re 1 local Re 1.5 STD per SMS"
+        ]
+      },
+      "479": {
+        "validity": "48 days",
+        "calls": "Unlimited Calls",
+        "data": "1 GB/Day",
+        "sms": "100 SMS/Day",
+        "notes": [
+          "Post daily quota, data speed will be upto 64Kbps",
+          "Post daily SMS quota charges applicable at Rs 1/1.5 for Local/STD SMS"
+        ]
+      },
+      "509": {
+        "validity": "84 days",
+        "calls": "Unlimited Calls",
+        "data": "6GB Data",
+        "sms": "1000 SMS",
+        "notes": [
+          "Data tariff post quota completion will be charged at 50p/MB",
+          "Post SMS quota charging will be Re 1 local Re 1.5 STD per SMS"
+        ]
+      },
+      "579": {
+        "validity": "56 days",
+        "calls": "Unlimited Calls",
+        "data": "1.5 GB/Day",
+        "sms": "100 SMS/Day",
+        "features": [
+          "Unlimited Night data from 12am to 6am",
+          "Carry Mon-Fri unused data into Sat-Sun",
+          "2GB of backup Data every month at no extra Cost"
+        ],
+        "notes": [
+          "Post daily quota, data speed will be upto 64Kbps",
+          "Post daily SMS quota charges applicable at Rs 1/1.5 for Local/STD SMS"
+        ]
+      },
+      "625": {
+        "validity": "60 days",
+        "calls": "Unlimited Calls",
+        "data": "50 GB",
+        "sms": "100 SMS/Day",
+        "notes": [
+          "Data tariff post quota completion will be charged at 50p/MB",
+          "Post SMS quota charging will be Re 1 local Re 1.5 STD per SMS"
+        ]
+      },
+      "649": {
+        "validity": "56 days",
+        "calls": "Unlimited Calls",
+        "data": "Full Day Unlimited data, Everyday",
+        "sms": "100 SMS/Day",
+        "notes": [
+          "Post daily 100 SMS limit charging will be Re 1 local Re 1.5 STD per SMS",
+          "Unlimited Data is only meant for personal and non-commercial use",
+          "To check non-commercial usage policy, please visit Prepaid T&C"
+        ]
+      },
+      "666": {
+        "validity": "64 days",
+        "calls": "Unlimited Calls",
+        "data": "1.5 GB/Day",
+        "sms": "100 SMS/Day",
+        "features": [
+          "Unlimited Night data from 12am to 6am",
+          "Carry Mon-Fri unused data into Sat-Sun",
+          "2GB of backup Data every month at no extra Cost"
+        ],
+        "notes": [
+          "Post daily quota, data speed will be upto 64Kbps",
+          "Post daily SMS quota charges applicable at Rs 1/1.5 for Local/STD SMS"
+        ]
+      },
+      "719": {
+        "validity": "72 days",
+        "calls": "Unlimited Calls",
+        "data": "1 GB/Day",
+        "sms": "100 SMS/Day",
+        "notes": [
+          "Post daily quota, data speed will be upto 64Kbps",
+          "Post daily SMS quota charges applicable at Rs 1/1.5 for Local/STD SMS"
+        ]
+      },
+      "795": {
+        "validity": "56 days",
+        "calls": "Unlimited Calls",
+        "data": "Full Day Unlimited Data, Everyday",
+        "sms": "100 SMS/Day",
+        "notes": [
+          "Post daily 100 SMS limit charging will be Re 1 local Re 1.5 STD per SMS",
+          "Unlimited Data is only meant for personal and non-commercial use",
+          "To check non-commercial usage policy, please visit Prepaid T&C"
+        ]
+      },
+      "799": {
+        "validity": "77 days",
+        "calls": "Unlimited Calls",
+        "data": "1.5 GB/Day",
+        "sms": "100 SMS/Day",
+        "features": [
+          "Unlimited Night data from 12am to 6am",
+          "Carry Mon-Fri unused data into Sat-Sun",
+          "2GB of backup Data every month at no extra Cost"
+        ],
+        "notes": [
+          "Post daily quota, data speed will be upto 64Kbps",
+          "Post daily SMS quota charges applicable at Rs 1/1.5 for Local/STD SMS"
+        ]
+      },
+      "859": {
+        "validity": "84 days",
+        "calls": "Unlimited Calls",
+        "data": "1.5 GB/Day",
+        "sms": "100 SMS/Day",
+        "features": [
+          "Unlimited Night data from 12am to 6am",
+          "Carry Mon-Fri unused data into Sat-Sun",
+          "2GB of backup Data every month at no extra Cost"
+        ],
+        "notes": [
+          "Post daily quota, data speed will be upto 64Kbps",
+          "Post daily SMS quota charges applicable at Rs 1/1.5 for Local/STD SMS"
+        ]
+      },
+      "979": {
+        "validity": "84 days",
+        "calls": "Unlimited Calls",
+        "data": "Full Day Unlimited Data, Everyday",
+        "sms": "100 SMS/Day",
+        "features": [
+          "Watch ZEE5, SonyLIV, Lionsgate Play, Playflix, Fancode, Aaj Tak, Manoramax & many more on TV & Mobile",
+          "Enjoy 16 OTT Apps, 400 TV Channels in one subscription with Vi Movies & TV Super plan"
+        ],
+        "notes": [
+          "Post daily 100 SMS limit charging will be Re 1 local Re 1.5 STD per SMS",
+          "Unlimited Data is only meant for personal and non-commercial use",
+          "To check non-commercial usage policy, please visit Prepaid T&C"
+        ]
+      },
+      "994": {
+        "validity": "84 days",
+        "calls": "Unlimited Calls",
+        "data": "Full Day Unlimited Data, Everyday",
+        "sms": "100 SMS/Day",
+        "features": [
+          "3 Months JioHotstar Mobile subscription"
+        ],
+        "notes": [
+          "Post daily 100 SMS limit charging will be Re 1 local Re 1.5 STD per SMS",
+          "Unlimited Data is only meant for personal and non-commercial use",
+          "To check non-commercial usage policy, please visit Prepaid T&C"
+        ]
+      },
+      "996": {
+        "validity": "84 days",
+        "calls": "Unlimited Calls",
+        "data": "Full Day Unlimited Data, Everyday",
+        "sms": "100 SMS/Day",
+        "features": [
+          "Prime Lite subscription for 90 Days"
+        ],
+        "notes": [
+          "Post daily 100 SMS limit charging will be Re 1 local Re 1.5 STD per SMS",
+          "Unlimited Data is only meant for personal and non-commercial use",
+          "To check non-commercial usage policy, please visit Prepaid T&C"
+        ]
+      },
+      "998": {
+        "validity": "84 days",
+        "calls": "Unlimited Calls",
+        "data": "Full Day Unlimited Data, Everyday",
+        "sms": "100 SMS/Day",
+        "features": [
+          "84 Day SonyLIV subscription"
+        ],
+        "notes": [
+          "Post daily 100 SMS limit charging will be Re 1 local Re 1.5 STD per SMS",
+          "Unlimited Data is only meant for personal and non-commercial use",
+          "To check non-commercial usage policy, please visit Prepaid T&C"
+        ]
+      },
+      "1049": {
+        "validity": "180 days",
+        "calls": "Unlimited Calls",
+        "data": "12GB Data",
+        "sms": "1800 SMS",
+        "notes": [
+          "Data tariff post quota completion will be charged at 50p/MB",
+          "Post SMS quota charging will be Re 1 local Re 1.5 STD per SMS"
+        ]
+      },
+      "1198": {
+        "validity": "70 days",
+        "calls": "Unlimited Calls",
+        "data": "Full Day Unlimited Data, Everyday",
+        "sms": "100 SMS/Day",
+        "features": [
+          "Netflix Basic subscription for 70 Days"
+        ],
+        "notes": [
+          "Post daily 100 SMS limit charging will be Re 1 local Re 1.5 STD per SMS",
+          "Unlimited Data is only meant for personal and non-commercial use",
+          "To check non-commercial usage policy, please visit Prepaid T&C",
+          "Netflix benefit would be added only twice in the first recharge validity"
+        ]
+      },
+      "1749": {
+        "validity": "180 days",
+        "calls": "Unlimited Calls",
+        "data": "1.5 GB/Day",
+        "sms": "100 SMS/Day",
+        "features": [
+          "Unlimited Night data from 12am to 6am",
+          "Carry Mon-Fri unused data into Sat-Sun",
+          "2GB of backup Data every month at no extra Cost"
+        ],
+        "notes": [
+          "Post daily quota, data speed will be upto 64Kbps",
+          "Post daily SMS quota charges applicable at Rs 1/1.5 for Local/STD SMS"
+        ]
+      },
+      "1849": {
+        "validity": "365 days",
+        "calls": "Unlimited Calls",
+        "sms": "3600 SMS",
+        "notes": [
+          "Post SMS quota charging will be Re 1 local Re 1.5 STD per SMS"
+        ]
+      },
+      "1999": {
+        "validity": "365 days",
+        "calls": "Unlimited Calls",
+        "data": "24GB Data",
+        "sms": "3600 SMS",
+        "notes": [
+          "Data tariff post quota completion will be charged at 50p/MB",
+          "Post SMS quota charging will be Re 1 local Re 1.5 STD per SMS"
+        ]
+      },
+      "3499": {
+        "validity": "365 days",
+        "calls": "Unlimited Calls",
+        "data": "1.5 GB/Day",
+        "sms": "100 SMS/Day",
+        "features": [
+          "Unlimited Night data from 12am to 6am",
+          "Carry Mon-Fri unused data into Sat-Sun",
+          "2GB of backup Data every month at no extra Cost"
+        ],
+        "notes": [
+          "Post daily quota, data speed will be upto 64Kbps",
+          "Post daily SMS quota charges applicable at Rs 1/1.5 for Local/STD SMS"
+        ]
+      },
+      "3599": {
+        "validity": "365 days",
+        "calls": "Unlimited Calls",
+        "data": "2 GB/Day",
+        "sms": "100 SMS/Day",
+        "features": [
+          "Unlimited Night data from 12am to 6am",
+          "Carry Mon-Fri unused data into Sat-Sun",
+          "2GB of backup Data every month at no extra Cost"
+        ],
+        "notes": [
+          "Post daily quota, data speed will be upto 64Kbps",
+          "Post daily SMS quota charges applicable at Rs 1/1.5 for Local/STD SMS"
+        ]
+      },
+      "3699": {
+        "validity": "365 days",
+        "calls": "Unlimited Calls",
+        "data": "2 GB/Day",
+        "sms": "100 SMS/Day",
+        "features": [
+          "1yr JioHotstar Mobile subscription",
+          "Unlimited Night data from 12am to 6am",
+          "Carry Mon-Fri unused data into Sat-Sun",
+          "2GB of backup Data every month at no extra Cost"
+        ],
+        "notes": [
+          "Post daily quota, data speed will be upto 64Kbps",
+          "Post daily SMS quota charges applicable at Rs 1/1.5 for Local/STD SMS"
+        ]
+      },
+      "3799": {
+        "validity": "365 days",
+        "calls": "Unlimited Calls",
+        "data": "2GB/Day Data",
+        "features": [
+          "1 Yr Amazon Prime Lite subscription",
+          "Unlimited Night data from 12am to 6am",
+          "Carry Mon-Fri unused data into Sat-Sun",
+          "2GB of backup Data every month at no extra Cost"
+        ],
+        "notes": [
+          "Post daily quota, data speed will be upto 64Kbps",
+          "Post daily SMS quota charges applicable at Rs 1/1.5 for Local/STD SMS"
+        ]
+      }
+    },
+    "data": {
+      "26": {
+        "validity": "1 day",
+        "data": "1.5 GB Data",
+        "note": "Expires at 11-59 PM. No service validity"
+      },
+      "33": {
+        "validity": "2 days",
+        "data": "2GB Data",
+        "note": "Pack Validity for 2 days ; No Service Validity"
+      },
+      "48": {
+        "validity": "3 days",
+        "data": "6GB Data",
+        "note": "Pack Validity for 3 days ; No Service Validity"
+      },
+      "49": {
+        "validity": "1 day",
+        "data": "20 GB Data",
+        "note": "Expires at 11-59 PM. No service validity. No outgoing SMS"
+      },
+      "69": {
+        "validity": "28 days",
+        "data": "3GB Data",
+        "note": "Pack Validity for 28 days ; No Service Validity"
+      },
+      "89": {
+        "validity": "7 days",
+        "data": "6GB Data",
+        "note": "Pack Validity for 7 days ; No Service Validity , No outgoing SMS."
+      },
+      "95": {
+        "validity": "14 days",
+        "data": "4GB data",
+        "features": [
+          "28 Days Sony Liv mobile only membership"
+        ]
+      },
+      "101": {
+        "validity": "30 days",
+        "data": "5 GB",
+        "features": [
+          "JioHotstar Mobile subscription for 3 months"
+        ],
+        "note": "NO Service Validity"
+      },
+      "139": {
+        "validity": "28 days",
+        "data": "12 GB Data",
+        "note": "NO Service Validity. No Outgoing SMS"
+      },
+      "145": {
+        "validity": "28 days",
+        "data": "1GB/day",
+        "note": "NO Service Validity"
+      },
+      "151": {
+        "validity": "90 days",
+        "data": "4GB",
+        "features": [
+          "JioHotstar Mobile subscription for 3 months"
+        ],
+        "note": "NO Service Validity"
+      },
+      "154": {
+        "validity": "1 month",
+        "data": "2GB Data",
+        "features": [
+          "Watch ZEE5, SonyLIV, Lionsgate Play, SunNXT, Playflix, Fancode, Aaj Tak, Manoramax & many more on Mobile",
+          "Enjoy 16 OTT Apps, 350+ TV Channels in one subscription with Vi Movies & TV Lite plan"
+        ],
+        "note": "No service validity"
+      },
+      "169": {
+        "validity": "90 days",
+        "data": "8GB",
+        "features": [
+          "JioHotstar Mobile subscription for 3 months"
+        ],
+        "note": "NO Service Validity"
+      },
+      "175": {
+        "validity": "28 days",
+        "data": "10GB Data",
+        "features": [
+          "Watch ZEE5, SonyLIV, Lionsgate Play, SunNXT, Playflix, Fancode, Aaj Tak, Manoramax & many more on Mobile & TV",
+          "Enjoy 16 OTT Apps, 350+ TV Channels in one subscription with Vi Movies & TV Super plan"
+        ],
+        "note": "No service validity"
+      },
+      "202": {
+        "validity": "1 month",
+        "data": "5GB Data",
+        "features": [
+          "Watch JioHotstar, SonyLIV, Lionsgate Play, Playflix, Fancode, Aaj Tak, Manoramax & many more on Mobile & TV",
+          "Enjoy 14 OTT Apps, 350+ TV Channels in one subscription with Vi Movies & TV Pro plan"
+        ],
+        "note": "No service validity"
+      },
+      "208": {
+        "validity": "30 days",
+        "data": "1.5GB/day",
+        "note": "NO Service Validity"
+      },
+      "248": {
+        "validity": "1 month",
+        "data": "6GB Data",
+        "features": [
+          "Watch JioHotstar, ZEE5, SonyLIV, Lionsgate Play, SunNXT, Playflix, Fancode, Aaj Tak, Manoramax & many more on Mobile & TV",
+          "Enjoy 17 OTT Apps, 350+ TV Channels in one subscription with Vi Movies & TV Plus plan"
+        ],
+        "note": "No service validity"
+      },
+      "348": {
+        "validity": "28 days",
+        "data": "50GB Data"
+      },
+      "488": {
+        "validity": "56 days",
+        "data": "100GB Data"
+      },
+      "1189": {
+        "validity": "365 days",
+        "data": "50GB Data",
+        "note": "Pack validity for 365 days; No service validity"
+      }
+    },
+    "validity_extension": {
+      "99": {
+        "validity": "15 days",
+        "talktime": "Rs 99 Limited Validity talktime",
+        "calls": "L+N Calls at 2.5p/sec",
+        "data": "200MB Data",
+        "notes": [
+          "NO OUTGOING SMS",
+          "Standard tariff for SMS to 1900",
+          "15 Day Service Validity"
+        ]
+      },
+      "128": {
+        "validity": "18 days",
+        "calls": "All Local/National Calls at 2.5 paise/sec",
+        "features": [
+          "10 Local On-net Night Minutes",
+          "Night minutes benefit available from 2300 Hrs to 0600 Hrs"
+        ],
+        "notes": [
+          "No Outgoing SMS"
+        ]
+      },
+      "138": {
+        "validity": "20 days",
+        "calls": "All Local/National Calls at 2.5 paise/sec",
+        "features": [
+          "10 Local On-net Night Minutes",
+          "Night minutes benefit available from 2300 Hrs to 0600 Hrs"
+        ],
+        "notes": [
+          "No Outgoing SMS"
+        ]
+      },
+      "198": {
+        "validity": "30 days",
+        "talktime": "Rs 198 Limitd Validity Talktime",
+        "calls": "calls at 2.5p/sec",
+        "data": "500 MB Data"
+      },
+      "204": {
+        "validity": "1 month",
+        "talktime": "Rs 204 Limited Validity Talktime",
+        "calls": "calls at 2.5p/sec",
+        "data": "500 MB Data"
+      }
+    },
+    "talktime": {
+      "10": {
+        "validity": "na",
+        "talktime": "Rs. 7.47",
+        "features": [
+          "Talktime validity Unrestricted",
+          "No Service Validity",
+          "Talktime balance can be used in International roaming"
+        ]
+      },
+      "20": {
+        "validity": "na",
+        "talktime": "Rs. 14.95",
+        "features": [
+          "Talktime validity Unrestricted",
+          "No Service Validity",
+          "Talktime balance can be used in International roaming"
+        ]
+      },
+      "30": {
+        "validity": "na",
+        "talktime": "Rs. 22.42",
+        "features": [
+          "Talktime validity Unrestricted",
+          "No Service Validity",
+          "Talktime balance can be used in International roaming"
+        ]
+      },
+      "50": {
+        "validity": "na",
+        "talktime": "Rs. 39.37",
+        "features": [
+          "Talktime validity Unrestricted",
+          "No Service Validity",
+          "Talktime balance can be used in International roaming"
+        ]
+      },
+      "100": {
+        "validity": "na",
+        "talktime": "Rs. 81.75",
+        "notes": [
+          "No Outgoing SMS"
+        ],
+        "features": [
+          "Talktime validity - Unrestricted",
+          "No Service Validity",
+          "Talktime balance can be used in International roaming"
+        ]
+      },
+      "500": {
+        "validity": "na",
+        "talktime": "Rs. 423.73",
+        "features": [
+          "Talktime validity Unrestricted",
+          "No Service Validity",
+          "Talktime balance can be used in International roaming"
+        ]
+      },
+      "1000": {
+        "validity": "na",
+        "talktime": "Rs. 847.46",
+        "features": [
+          "Talktime validity Unrestricted",
+          "No Service Validity",
+          "Talktime balance can be used in International roaming"
+        ]
+      }
+    },
+    "special_tariff": {
+      "224": {
+        "validity": "30 days",
+        "calls": "Unlimited Calls",
+        "data": "4GB data",
+        "note": "Data tariff post quota completion will be charged at 50p/MB"
+      },
+      "232": {
+        "validity": "1 month",
+        "calls": "Unlimited Calls",
+        "data": "4GB data",
+        "note": "Data tariff post quota completion will be charged at 50p/MB"
+      }
+    },
+    "international_roaming": {
+      "495": {
+        "validity": "3 days",
+        "calls": "50 mins outgoing and incoming calls",
+        "countries": "124 countries",
+        "note": "To check country specific benefits, please visit International Roaming section"
+      },
+      "695": {
+        "validity": "1 day",
+        "calls": "120 minutes Outgoing (Local + call back home) + Free IC",
+        "data": "1GB Data",
+        "countries": "29 countries",
+        "features": [
+          "Free 50 minutes Outgoing (Local + call back home) + Free Incoming +300MB Data in 95 countries"
+        ],
+        "rates": [
+          "OG International Calls at Standard Rates",
+          "Post quota OG / IC rates- Rs 3/min"
+        ],
+        "note": "Data after your quota is over would be kept OFF. Too check the country specific benefit, please visit International roaming section"
+      },
+      "755": {
+        "validity": "5 days",
+        "data": "1 GB Data",
+        "countries": "59 countries",
+        "features": [
+          "500 MB while roaming abroad in 65 countries"
+        ],
+        "rates": [
+          "OG International Calls at Standard Rates",
+          "Post quota OG / IC rates- Rs 10/min"
+        ],
+        "note": "Data after your quota is over would be kept OFF. To check country specific benefits, please visit International Roaming section"
+      },
+      "756": {
+        "validity": "7 days",
+        "calls": "100 mins outgoing and incoming calls",
+        "countries": "59 countries",
+        "features": [
+          "FREE 50 mins outgoing and incoming calls when roaming in 65 countries"
+        ],
+        "note": "To check country specific benefits, please visit International Roaming section"
+      },
+      "995": {
+        "validity": "10 days",
+        "calls": "100 minutes on outgoing and incoming calls",
+        "data": "1.25GB",
+        "countries": "59 Countries",
+        "features": [
+          "FREE 50 minutes outgoing and incoming calls & 250 MB in 65 Countries"
+        ],
+        "note": "To check country specific benefits, please visit International Roaming section"
+      },
+      "1199": {
+        "validity": "20 days",
+        "calls": "150 Minutes Outgoing (Local + To India) and Incoming Calls",
+        "data": "2 GB Data",
+        "countries": "Saudi Arabia, UAE & Iraq",
+        "note": "T&C Apply"
+      },
+      "1495": {
+        "validity": "15 days",
+        "calls": "200 minutes outgoing and incoming calls",
+        "data": "2 GB",
+        "countries": "59 countries",
+        "features": [
+          "FREE 100 minutes outgoing and incoming calls & 750 MB in 65 countries"
+        ],
+        "note": "T&C Apply. To check country specific benefits, please visit International Roaming section"
+      },
+      "1899": {
+        "validity": "5 days",
+        "calls": "250 Minutes Outgoing (Local + To India) and Incoming Calls",
+        "data": "1GB/Day Data",
+        "countries": "Indonesia, Thailand, Sri Lanka, Singapore and Malaysia",
+        "note": "T&C Apply"
+      },
+      "2388": {
+        "validity": "40 days",
+        "calls": "300 Minutes Outgoing (Local + To India) and Incoming Calls",
+        "data": "4 GB Data",
+        "countries": "Saudi Arabia, UAE & Iraq",
+        "note": "T&C Apply"
+      },
+      "2695": {
+        "validity": "4 days",
+        "calls": "120 minutes/day Outgoing (Local + call back home) + Free Incoming",
+        "data": "4GB Data",
+        "countries": "29 countries",
+        "features": [
+          "Free 200 minutes Outgoing (Local + call back home) + Free Incoming + 1.2GB Data in 95 countries"
+        ],
+        "rates": [
+          "OG International Calls at Standard Rates",
+          "Post quota OG / IC rates- Rs 3/min"
+        ],
+        "note": "Data after your quota is over would be kept OFF. To check country specific benefit, please visit International Roaming section"
+      },
+      "2997": {
+        "validity": "365 days",
+        "calls": "125 minutes Outgoing (Local + call back home) & Incoming calls",
+        "data": "1.5GB Data",
+        "countries": "58 countries",
+        "features": [
+          "Free 50 minutes Outgoing (Local + call back home) & Incoming calls + 0.5GB Data while roaming in 65 countries"
+        ],
+        "rates": [
+          "OG International Calls at Standard Rates",
+          "Post quota OG/IC rates- Rs 10/min",
+          "Post quota Data rates - Rs 10/MB",
+          "SMS rates - Rs 15/SMS"
+        ],
+        "note": "To check country specific benefits, please visit International roaming section"
+      },
+      "2998": {
+        "validity": "30 days",
+        "calls": "200 minutes outgoing and incoming calls",
+        "data": "5 GB Data",
+        "countries": "59 countries",
+        "features": [
+          "100 minutes outgoing and incoming calls & 1GB Data in 65 countries"
+        ],
+        "rates": [
+          "OG International Calls at Standard Rates",
+          "Post quota OG / IC rates- Rs 10/min"
+        ],
+        "note": "Data after your quota is over would be kept OFF. To check country specific benefits, please visit International Roaming section"
+      },
+      "3495": {
+        "validity": "7 days",
+        "calls": "Unlimited Free outgoing (Local + call back home) & Incoming calls",
+        "data": "Unlimited Data",
+        "countries": "29 Countries",
+        "features": [
+          "Free 200 minutes outgoing calls (Local + call back home)+ Free IC + 2GB Data for 95 Countries"
+        ],
+        "rates": [
+          "OG International Calls at Standard Rates",
+          "Post quota OG / IC rates- Rs 10/min",
+          "Post quota Data charges - Rs 10/MB",
+          "SMS charges - Rs 15/SMS"
+        ],
+        "note": "To check country specific benefits, please visit International roaming section"
+      },
+      "4695": {
+        "validity": "10 days",
+        "features": [
+          "Unlimited Free outgoing (Local + call back home) & Incoming calls + Unlimited Data in 29 countries",
+          "Free 300 minutes outgoing calls + Free IC + 3GB Data in 95 countries"
+        ],
+        "rates": [
+          "OG International Calls at Standard Rates",
+          "Post quota OG / IC rates- Rs 10/min",
+          "Post quota Data charges - Rs 10/MB",
+          "SMS charges - Rs 15/SMS"
+        ],
+        "note": "To check country specific benefits, please visit International Roaming section"
+      },
+      "5195": {
+        "validity": "14 days",
+        "calls": "Unlimited Free outgoing & Incoming calls",
+        "data": "Unlimited Data",
+        "countries": "29 countries",
+        "features": [
+          "Free 500 minutes outgoing calls + Free Incoming + 5GB Data in 95 countries"
+        ],
+        "rates": [
+          "OG International Calls at Standard Rates",
+          "Post quota OG / IC rates- Rs 10/min",
+          "Post quota Data charges - Rs 10/MB",
+          "SMS charges - Rs 15/SMS"
+        ],
+        "note": "To check country specific benefits, please visit International Roaming section"
+      },
+      "6995": {
+        "validity": "28 days",
+        "calls": "120 minutes/day outgoing calls + Free Incoming",
+        "data": "15GB Data",
+        "countries": "29 countries",
+        "features": [
+          "Free 500 minutes outgoing calls + Free Incoming + 5GB Data in 95 countries"
+        ],
+        "rates": [
+          "OG International Calls at Standard Rates",
+          "Post quota OG / IC rates- Rs 3/min"
+        ],
+        "note": "Data after your quota is over would be kept OFF. To check country specific benefits, please visit International Roaming section"
+      }
+    },
+    "vas": {
+      "22": {
+        "validity": "1 day",
+        "data": "1GB Data",
+        "note": "Expires at 11-59 PM. No service validity"
+      },
+      "45": {
+        "validity": "0 days",
+        "features": [
+          "6 Months subscription for Missed call alerts on Vi App"
+        ],
+        "note": "No service Validity"
+      },
+      "47": {
+        "validity": "28 days",
+        "features": [
+          "Callertunes With Unlimited Song Change on Vi App"
+        ],
+        "note": "Benefits will be active within 2 hours post recharge"
+      },
+      "78": {
+        "validity": "89 days",
+        "features": [
+          "Callertunes With Unlimited Song Change on Vi App"
+        ],
+        "note": "Benefits will be active within 2 hours post recharge"
+      },
+      "339": {
+        "validity": "48 days",
+        "calls": "Unlimited Calls",
+        "data": "4GB Data",
+        "sms": "600 SMS"
+      },
+      "489": {
+        "validity": "78 days",
+        "calls": "Unlimited Calls",
+        "data": "6GB Data",
+        "sms": "1000 SMS"
+      },
+      "1197": {
+        "validity": "84 days",
+        "data": "Full Day Unlimited data, Everyday",
+        "calls": "Unlimited Calls",
+        "sms": "100 SMS/Day",
+        "notes": [
+          "Post daily 100 SMS limit charging will be Re 1 local Re 1.5 STD per SMS",
+          "Unlimited Data is only meant for personal and non-commercial use",
+          "To check non-commercial usage policy, please visit Prepaid T&C"
+        ]
+      }
+    }
+  }
+}
+

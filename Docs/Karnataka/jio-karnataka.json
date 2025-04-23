@@ -1,0 +1,483 @@
+{
+  "jio": {
+    "unlimited": {
+      "51": {
+        "validity": "existing",
+        "data": "3GB data"
+      },
+      "101": {
+        "validity": "existing",
+        "data": "6GB data"
+      },
+      "151": {
+        "validity": "existing",
+        "data": "9GB data"
+      },
+      "189": {
+        "validity": "28 days",
+        "data": "2 GB data",
+        "calls": "Unlimited calls",
+        "sms": "300",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "198": {
+        "validity": "14 days",
+        "data": "2 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "199": {
+        "validity": "18 days",
+        "data": "1.5 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "209": {
+        "validity": "22 days",
+        "data": "1 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "239": {
+        "validity": "22 days",
+        "data": "1.5 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "249": {
+        "validity": "28 days",
+        "data": "1 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "299": {
+        "validity": "28 days",
+        "data": "1.5 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "319": {
+        "validity": "calendar month",
+        "data": "1.5 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "349": {
+        "validity": "28 days",
+        "data": "2 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "355": {
+        "validity": "30 days",
+        "data": "25 GB data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "399": {
+        "validity": "28 days",
+        "data": "2.5 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "448": {
+        "validity": "84 days",
+        "calls": "Unlimited calls",
+        "sms": "1000",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "449": {
+        "validity": "28 days",
+        "data": "3 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "579": {
+        "validity": "56 days",
+        "data": "1.5 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "629": {
+        "validity": "56 days",
+        "data": "2 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "666": {
+        "validity": "70 days",
+        "data": "1.5 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "719": {
+        "validity": "70 days",
+        "data": "2 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "749": {
+        "validity": "72 days",
+        "data": "2 GB/Day +20 GB data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "799": {
+        "validity": "84 days",
+        "data": "1.5 GB/day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "859": {
+        "validity": "84 days",
+        "data": "2 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "899": {
+        "validity": "90 days",
+        "data": "2 GB/Day + 20 GB data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "999": {
+        "validity": "98 days",
+        "data": "2 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "1028": {
+        "validity": "84 days",
+        "data": "2 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["Swiggy", "JioTV", "JioAICloud"]
+      },
+      "1199": {
+        "validity": "84 days",
+        "data": "3 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "1748": {
+        "validity": "336 days",
+        "calls": "Unlimited calls",
+        "sms": "3600",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "2025": {
+        "validity": "200 days",
+        "data": "2.5 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "3599": {
+        "validity": "365 days",
+        "data": "2.5 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "3999": {
+        "validity": "365 days",
+        "data": "2.5 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["FanCode", "JioTV", "JioAICloud"]
+      }
+    },
+    "data": {
+      "11": {
+        "validity": "1 hour",
+        "data": "10 GB data"
+      },
+      "19": {
+        "validity": "1 day",
+        "data": "1 GB data"
+      },
+      "29": {
+        "validity": "2 days",
+        "data": "2 GB data"
+      },
+      "49": {
+        "validity": "1 day",
+        "data": "25 GB data"
+      },
+      "69": {
+        "validity": "7 days",
+        "data": "6 GB data"
+      },
+      "139": {
+        "validity": "7 days",
+        "data": "12 GB data"
+      },
+      "175": {
+        "validity": "28 days",
+        "data": "10 GB data",
+        "apps": ["Sony LIV", "ZEE5", "Lionsgate Play", "Discovery+", "Sun NXT", "Kanchha Lannka", "Planet Marathi", "Chaupal", "Hoichoi", "JioTV"]
+      },
+      "219": {
+        "validity": "30 days",
+        "data": "30 GB data"
+      },
+      "289": {
+        "validity": "30 days",
+        "data": "40 GB data"
+      },
+      "359": {
+        "validity": "30 days",
+        "data": "50 GB data"
+      }
+    },
+    "jiophone": {
+      "26": {
+        "validity": "28 days",
+        "data": "2 GB data"
+      },
+      "62": {
+        "validity": "28 days",
+        "data": "6 GB data"
+      },
+      "75": {
+        "validity": "23 days",
+        "data": "100 MB/Day + 200 MB data",
+        "calls": "Unlimited calls",
+        "sms": "50",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "86": {
+        "validity": "28 days",
+        "data": "0.5 GB/day data"
+      },
+      "91": {
+        "validity": "28 days",
+        "data": "100 MB/day + 200 MB data",
+        "calls": "Unlimited calls",
+        "sms": "50",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "122": {
+        "validity": "28 days",
+        "data": "1 GB/day data"
+      },
+      "125": {
+        "validity": "23 days",
+        "data": "0.5 GB/day data",
+        "calls": "Unlimited calls",
+        "sms": "300",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "152": {
+        "validity": "28 days",
+        "data": "0.5 GB/day data",
+        "calls": "Unlimited calls",
+        "sms": "300",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "182": {
+        "validity": "28 days",
+        "data": "2 GB/day data"
+      },
+      "186": {
+        "validity": "28 days",
+        "data": "1 GB/day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "223": {
+        "validity": "28 days",
+        "data": "2 GB/day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/day",
+        "apps": ["JioTV", "JioAICloud"]
+      },
+      "895": {
+        "validity": "336 days",
+        "data": "2 GB/28 days data",
+        "calls": "Unlimited calls",
+        "sms": "50 SMS/28 days",
+        "apps": ["JioTV", "JioAICloud"]
+      }
+    },
+    "talktime": {
+      "10": {
+        "validity": "NA",
+        "talktime": "7.47"
+      },
+      "20": {
+        "validity": "NA",
+        "talktime": "14.95"
+      },
+      "50": {
+        "validity": "NA",
+        "talktime": "39.37"
+      },
+      "500": {
+        "validity": "NA",
+        "talktime": "420.73"
+      },
+      "1000": {
+        "validity": "NA",
+        "talktime": "844.46"
+      }
+    },
+    "isd": {
+      "39": {
+        "validity": "NA",
+        "description": "Used only for making ISD calls"
+      },
+      "47": {
+        "validity": "NA",
+        "description": "Used only for making ISD calls"
+      },
+      "59": {
+        "validity": "NA",
+        "description": "Used only for making ISD calls"
+      },
+      "74": {
+        "validity": "NA",
+        "description": "Used only for making ISD calls"
+      },
+      "79": {
+        "validity": "NA",
+        "description": "Used only for making ISD calls"
+      },
+      "89": {
+        "validity": "NA",
+        "description": "Used only for making ISD calls"
+      },
+      "99": {
+        "validity": "NA",
+        "description": "Used only for making ISD calls"
+      },
+      "501": {
+        "validity": "28 days",
+        "talktime": "Rs 424.58 ISD Talktime",
+        "sms": "5 ISD SMS"
+      }
+    },
+    "entertainment": {
+      "329": {
+        "validity": "28 days",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioSaavn Pro", "JioTV", "JioAICloud"]
+      },
+      "445": {
+        "validity": "28 days",
+        "data": "2 GB/day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/day",
+        "apps": ["Sony LIV", "ZEE5", "Lionsgate Play", "Discovery+", "Sun NXT", "Kanchha Lannka", "Planet Marathi", "Chaupal", "Hoichoi", "FanCode", "JioTV", "JioAICloud"]
+      },
+      "889": {
+        "validity": "84 days",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioSaavn Pro", "JioTV", "JioAICloud"]
+      },
+      "1029": {
+        "validity": "84 days",
+        "data": "2 GB/day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/day",
+        "apps": ["Amazon Prime Lite", "JioTV", "JioAICloud"]
+      },
+      "1049": {
+        "validity": "84 days",
+        "data": "2 GB/day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/day",
+        "apps": ["Sony LIV", "ZEE5", "JioTV", "JioAICloud"]
+      },
+      "1299": {
+        "validity": "84 days",
+        "data": "2 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["Netflix(Mobile)", "JioTV", "JioAICloud"]
+      },
+      "1799": {
+        "validity": "84 days",
+        "data": "3 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["Netflix(Basic)", "JioTV", "JioAICloud"]
+      }
+    },
+    "hotstar": {
+      "100": {
+        "validity": "90 days",
+        "data": "5 GB data",
+        "apps": ["JioHotstar"]
+      },
+      "195": {
+        "validity": "90 days",
+        "data": "15 GB data",
+        "apps": ["JioHotstar"]
+      },
+      "949": {
+        "validity": "84 days",
+        "data": "2 GB/Day data",
+        "calls": "Unlimited calls",
+        "sms": "100 SMS/Day",
+        "apps": ["JioHotstar", "JioTV", "JioCloud"]
+      }
+    },
+    "ir_wifi_calling": {
+      "121": {
+        "validity": "2 days"
+      },
+      "521": {
+        "validity": "10 days"
+      }
+    },
+    "jiobharat_phone": {
+      "123": {
+        "validity": "28 days",
+        "data": "0.5 GB/day data",
+        "calls": "Unlimited calls",
+        "sms": "300",
+        "apps": ["JioSaavn", "JioTV"]
+      },
+      "234": {
+        "validity": "56 days",
+        "data": "0.5 GB/day data",
+        "calls": "Unlimited calls",
+        "sms": "300 SMS/28 days",
+        "apps": ["JioSaavn", "JioTV"]
+      },
+      "1234": {
+        "validity": "336 days",
+        "data": "0.5 GB/day data",
+        "calls": "Unlimited calls",
+        "sms": "300 SMS/28 days",
+        "apps": ["JioSaavn", "JioTV"]
+      }
+    }
+  }
+}
+

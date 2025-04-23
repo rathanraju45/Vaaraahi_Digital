@@ -1,209 +1,259 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const billPaymentForm = document.getElementById('billPaymentForm');
-    const serviceTypeSelect = document.getElementById('serviceType');
-    const mobileFields = document.getElementById('mobileFields');
-    const otherFields = document.getElementById('otherFields');
+    const rechargeForm = document.getElementById('rechargeForm');
     const stateSelect = document.getElementById('state');
-    const operatorSelect = document.getElementById('operator');
-    const rechargePlanSelect = document.getElementById('rechargePlan');
+    const planCategories = document.getElementById('planCategories');
+    const planSelection = document.getElementById('planSelection');
+    const planList = document.getElementById('planList');
+    const proceedButton = document.getElementById('proceedButton');
+    let selectedOperator = null;
+    let currentPlans = null;
+    let selectedPlan = null;
+    const categories = ['unlimited', 'data', 'talktime', 'isd'];
 
-    // Mobile recharge plans data
-    const rechargePlans = {
-        airtel: {
-            AP: {
-                prepaid: [
-                    { amount: 299, description: "28 days, Unlimited calls, 1.5GB/day data, 100 SMS/day" },
-                    { amount: 479, description: "56 days, Unlimited calls, 1.5GB/day data, 100 SMS/day" },
-                    { amount: 699, description: "84 days, Unlimited calls, 2GB/day data, 100 SMS/day" }
-                ],
-                postpaid: [
-                    { amount: 499, description: "Monthly, Unlimited calls, 75GB data, 100 SMS/day" },
-                    { amount: 749, description: "Monthly, Unlimited calls, 125GB data, 100 SMS/day" }
-                ]
-            },
-            KA: {
-                prepaid: [
-                    { amount: 299, description: "28 days, Unlimited calls, 2GB/day data, 100 SMS/day" },
-                    { amount: 479, description: "56 days, Unlimited calls, 2GB/day data, 100 SMS/day" },
-                    { amount: 699, description: "84 days, Unlimited calls, 2.5GB/day data, 100 SMS/day" }
-                ],
-                postpaid: [
-                    { amount: 499, description: "Monthly, Unlimited calls, 75GB data, 100 SMS/day" },
-                    { amount: 749, description: "Monthly, Unlimited calls, 125GB data, 100 SMS/day" }
-                ]
-            }
-        },
-        bsnl: {
-            AP: {
-                prepaid: [
-                    { amount: 199, description: "30 days, Unlimited calls, 1GB/day data, 100 SMS/day" },
-                    { amount: 399, description: "60 days, Unlimited calls, 1GB/day data, 100 SMS/day" },
-                    { amount: 599, description: "90 days, Unlimited calls, 1.5GB/day data, 100 SMS/day" }
-                ],
-                postpaid: [
-                    { amount: 399, description: "Monthly, Unlimited calls, 50GB data, 100 SMS/day" },
-                    { amount: 599, description: "Monthly, Unlimited calls, 100GB data, 100 SMS/day" }
-                ]
-            },
-            KA: {
-                prepaid: [
-                    { amount: 199, description: "30 days, Unlimited calls, 1GB/day data, 100 SMS/day" },
-                    { amount: 399, description: "60 days, Unlimited calls, 1GB/day data, 100 SMS/day" },
-                    { amount: 599, description: "90 days, Unlimited calls, 1.5GB/day data, 100 SMS/day" }
-                ],
-                postpaid: [
-                    { amount: 399, description: "Monthly, Unlimited calls, 50GB data, 100 SMS/day" },
-                    { amount: 599, description: "Monthly, Unlimited calls, 100GB data, 100 SMS/day" }
-                ]
-            }
-        },
-        jio: {
-            AP: {
-                prepaid: [
-                    { amount: 239, description: "28 days, Unlimited calls, 1.5GB/day data, 100 SMS/day" },
-                    { amount: 479, description: "56 days, Unlimited calls, 1.5GB/day data, 100 SMS/day" },
-                    { amount: 666, description: "84 days, Unlimited calls, 2GB/day data, 100 SMS/day" }
-                ],
-                postpaid: [
-                    { amount: 399, description: "Monthly, Unlimited calls, 75GB data, 100 SMS/day" },
-                    { amount: 699, description: "Monthly, Unlimited calls, 150GB data, 100 SMS/day" }
-                ]
-            },
-            KA: {
-                prepaid: [
-                    { amount: 239, description: "28 days, Unlimited calls, 1.5GB/day data, 100 SMS/day" },
-                    { amount: 479, description: "56 days, Unlimited calls, 1.5GB/day data, 100 SMS/day" },
-                    { amount: 666, description: "84 days, Unlimited calls, 2GB/day data, 100 SMS/day" }
-                ],
-                postpaid: [
-                    { amount: 399, description: "Monthly, Unlimited calls, 75GB data, 100 SMS/day" },
-                    { amount: 699, description: "Monthly, Unlimited calls, 150GB data, 100 SMS/day" }
-                ]
-            }
-        },
-        vi: {
-            AP: {
-                prepaid: [
-                    { amount: 269, description: "28 days, Unlimited calls, 1.5GB/day data, 100 SMS/day" },
-                    { amount: 479, description: "56 days, Unlimited calls, 1.5GB/day data, 100 SMS/day" },
-                    { amount: 699, description: "84 days, Unlimited calls, 2GB/day data, 100 SMS/day" }
-                ],
-                postpaid: [
-                    { amount: 399, description: "Monthly, Unlimited calls, 40GB data, 100 SMS/day" },
-                    { amount: 699, description: "Monthly, Unlimited calls, 100GB data, 100 SMS/day" }
-                ]
-            },
-            KA: {
-                prepaid: [
-                    { amount: 269, description: "28 days, Unlimited calls, 1.5GB/day data, 100 SMS/day" },
-                    { amount: 479, description: "56 days, Unlimited calls, 1.5GB/day data, 100 SMS/day" },
-                    { amount: 699, description: "84 days, Unlimited calls, 2GB/day data, 100 SMS/day" }
-                ],
-                postpaid: [
-                    { amount: 399, description: "Monthly, Unlimited calls, 40GB data, 100 SMS/day" },
-                    { amount: 699, description: "Monthly, Unlimited calls, 100GB data, 100 SMS/day" }
-                ]
-            }
-        }
-    };
+    // Event Listeners
+    stateSelect.addEventListener('change', handleStateChange);
+    document.querySelectorAll('.operator-option').forEach(option => {
+        option.addEventListener('click', handleOperatorSelection);
+    });
+    
+    // Add scroll event listener to plan list
+    planList.addEventListener('scroll', handlePlanListScroll);
 
-    // Event listeners for form field changes
-    serviceTypeSelect?.addEventListener('change', handleServiceTypeChange);
-    stateSelect?.addEventListener('change', updatePlans);
-    operatorSelect?.addEventListener('change', updatePlans);
-    document.getElementById('rechargeType')?.addEventListener('change', updatePlans);
+    // Initialize with Andhra Pradesh selected
+    loadOperatorPlans();
 
-    if (billPaymentForm) {
-        billPaymentForm.addEventListener('submit', handleBillPayment);
+    // Handle operator selection
+    async function handleOperatorSelection(e) {
+        const operatorCard = e.currentTarget;
+        selectedOperator = operatorCard.dataset.operator;
+
+        // Update visual selection
+        document.querySelectorAll('.operator-option').forEach(option => {
+            option.classList.remove('border-blue-500', 'border-2');
+        });
+        operatorCard.classList.add('border-blue-500', 'border-2');
+
+        // Load plans for selected operator and state
+        await loadOperatorPlans();
+        displayAllPlans();
     }
 
-    // Handle service type change
-    function handleServiceTypeChange() {
-        const selectedService = serviceTypeSelect.value;
-        if (selectedService === 'mobile') {
-            mobileFields.classList.remove('hidden');
-            otherFields.classList.add('hidden');
-            // Reset and make mobile fields required
-            ['state', 'operator', 'mobileNumber', 'rechargeType', 'rechargePlan'].forEach(id => {
-                const element = document.getElementById(id);
-                if (element) element.required = true;
-            });
-            // Make other fields not required
-            ['consumerNumber', 'amount'].forEach(id => {
-                const element = document.getElementById(id);
-                if (element) element.required = false;
-            });
-        } else {
-            mobileFields.classList.add('hidden');
-            otherFields.classList.remove('hidden');
-            // Reset and make other fields required
-            ['consumerNumber', 'amount'].forEach(id => {
-                const element = document.getElementById(id);
-                if (element) element.required = true;
-            });
-            // Make mobile fields not required
-            ['state', 'operator', 'mobileNumber', 'rechargeType', 'rechargePlan'].forEach(id => {
-                const element = document.getElementById(id);
-                if (element) element.required = false;
-            });
+    // Handle state selection
+    async function handleStateChange() {
+        await loadOperatorPlans();
+        if (selectedOperator) {
+            displayAllPlans();
         }
     }
 
-    // Update recharge plans based on selections
-    function updatePlans() {
+    // Load operator plans from JSON file
+    async function loadOperatorPlans() {
+        if (!selectedOperator) return;
+        
         const state = stateSelect.value;
-        const operator = operatorSelect.value;
-        const rechargeType = document.getElementById('rechargeType').value;
-        const planSelect = document.getElementById('rechargePlan');
+        const stateName = state === 'AP' ? 'Andhra_Pradesh' : 'Karnataka';
+        try {
+            const response = await fetch(`../Docs/${stateName}/${selectedOperator}-${stateName.toLowerCase().replace('_', '-')}.json`);
+            const data = await response.json();
+            currentPlans = data[selectedOperator];
+            console.log('Loaded plans:', currentPlans);
+        } catch (error) {
+            console.error('Error loading plans:', error);
+            currentPlans = null;
+        }
+    }
 
-        // Clear existing options
-        planSelect.innerHTML = '<option value="">Select Plan</option>';
+    // Display all plans grouped by category
+    function displayAllPlans() {
+        if (!currentPlans) {
+            planList.innerHTML = '<p class="text-gray-600">No plans available</p>';
+            return;
+        }
 
-        if (state && operator && rechargeType && rechargePlans[operator]?.[state]?.[rechargeType]) {
-            const plans = rechargePlans[operator][state][rechargeType];
-            plans.forEach(plan => {
-                const option = document.createElement('option');
-                option.value = plan.amount;
-                option.textContent = `₹${plan.amount} - ${plan.description}`;
-                planSelect.appendChild(option);
-            });
+        planList.innerHTML = '';
+        planSelection.classList.remove('hidden');
+        
+        // Create category headers and plan groups
+        categories.forEach(category => {
+            if (currentPlans[category] && Object.keys(currentPlans[category]).length > 0) {
+                const categorySection = document.createElement('div');
+                categorySection.className = 'mb-8';
+                categorySection.id = `category-${category}`;
+                
+                const categoryHeader = document.createElement('h3');
+                categoryHeader.className = 'text-lg font-semibold mb-4 sticky top-0 bg-white py-2';
+                categoryHeader.textContent = getCategoryDisplayName(category);
+                categorySection.appendChild(categoryHeader);
+
+                const plans = currentPlans[category];
+                Object.entries(plans).forEach(([price, details]) => {
+                    const planCard = createPlanCard(price, details);
+                    categorySection.appendChild(planCard);
+                });
+
+                planList.appendChild(categorySection);
+            }
+        });
+
+        // Show proceed button but disable it until a plan is selected
+        proceedButton.classList.remove('hidden');
+        updateProceedButton();
+    }
+
+    // Create a plan card element
+    function createPlanCard(price, details) {
+        const planCard = document.createElement('div');
+        planCard.className = 'plan-card flex items-start p-4 border rounded-lg hover:border-blue-500 hover:shadow-md transition-all cursor-pointer mb-4';
+        planCard.dataset.price = price;
+        planCard.dataset.validity = details.validity || 'N/A';
+        planCard.dataset.description = JSON.stringify(details);
+
+        const formattedDetails = [];
+        if (details.calls) formattedDetails.push(details.calls);
+        if (details.data) formattedDetails.push(details.data);
+        if (details.sms) formattedDetails.push(details.sms);
+        if (details.details) formattedDetails.push(details.details);
+
+        planCard.innerHTML = `
+            <div class="flex-shrink-0 w-32 text-center">
+                <div class="text-2xl font-bold text-blue-600">₹${price}</div>
+                <div class="text-sm text-gray-600">${details.validity || 'N/A'}</div>
+            </div>
+            <div class="flex-grow pl-6 border-l">
+                <p class="text-gray-700">${formattedDetails.join(' | ')}</p>
+            </div>
+            <input type="radio" name="plan" value="${price}" class="ml-4 mt-2">
+        `;
+
+        planCard.addEventListener('click', () => {
+            planCard.querySelector('input[type="radio"]').checked = true;
+            handlePlanSelection(planCard);
+        });
+
+        return planCard;
+    }
+
+    // Handle plan selection
+    function handlePlanSelection(planCard) {
+        document.querySelectorAll('.plan-card').forEach(card => {
+            card.classList.remove('border-blue-500', 'bg-blue-50');
+            card.classList.add('border-gray-200');
+        });
+
+        planCard.classList.remove('border-gray-200');
+        planCard.classList.add('border-blue-500', 'bg-blue-50');
+        
+        selectedPlan = {
+            price: planCard.dataset.price,
+            validity: planCard.dataset.validity,
+            description: planCard.dataset.description
+        };
+        
+        updateProceedButton();
+        
+        // Update category selection based on the selected plan
+        const categorySection = planCard.closest('[id^="category-"]');
+        if (categorySection) {
+            const category = categorySection.id.replace('category-', '');
+            updateCategorySelection(category);
+        }
+    }
+
+    // Handle plan list scrolling
+    function handlePlanListScroll() {
+        const scrollPosition = planList.scrollTop;
+        const categories = planList.querySelectorAll('[id^="category-"]');
+        
+        let currentCategory = null;
+        categories.forEach(category => {
+            const rect = category.getBoundingClientRect();
+            if (rect.top <= 150) { // Adjust this value based on your layout
+                currentCategory = category.id.replace('category-', '');
+            }
+        });
+
+        if (currentCategory) {
+            updateCategorySelection(currentCategory, false);
+        }
+    }
+
+    // Update category button selection
+    function updateCategorySelection(category, scroll = true) {
+        document.querySelectorAll('.plan-category').forEach(button => {
+            if (button.dataset.category === category) {
+                button.classList.remove('border-gray-300', 'text-gray-700');
+                button.classList.add('border-blue-500', 'text-blue-500');
+                if (scroll) {
+                    document.getElementById(`category-${category}`)?.scrollIntoView({ behavior: 'smooth' });
+                }
+            } else {
+                button.classList.remove('border-blue-500', 'text-blue-500');
+                button.classList.add('border-gray-300', 'text-gray-700');
+            }
+        });
+    }
+
+    // Get display name for category
+    function getCategoryDisplayName(category) {
+        const displayNames = {
+            'unlimited': 'Unlimited Plans',
+            'data': 'Data Plans',
+            'talktime': 'Talktime',
+            'isd': 'ISD Plans'
+        };
+        return displayNames[category] || category;
+    }
+
+    // Update proceed button state
+    function updateProceedButton() {
+        const submitButton = proceedButton.querySelector('button');
+        
+        if (selectedPlan) {
+            submitButton.disabled = false;
+            submitButton.classList.remove('bg-gray-400', 'cursor-not-allowed');
+            submitButton.classList.add('bg-blue-600', 'hover:bg-blue-700');
+        } else {
+            submitButton.disabled = true;
+            submitButton.classList.add('bg-gray-400', 'cursor-not-allowed');
+            submitButton.classList.remove('bg-blue-600', 'hover:bg-blue-700');
         }
     }
 
     // Handle form submission
-    function handleBillPayment(e) {
+    rechargeForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        const serviceType = serviceTypeSelect.value;
-
-        if (serviceType === 'mobile') {
-            const mobileNumber = document.getElementById('mobileNumber').value;
-            const state = stateSelect.value;
-            const operator = operatorSelect.value;
-            const rechargeType = document.getElementById('rechargeType').value;
-            const planAmount = document.getElementById('rechargePlan').value;
-
-            // Validate mobile number
-            if (!/^[0-9]{10}$/.test(mobileNumber)) {
-                alert('Please enter a valid 10-digit mobile number');
-                return;
-            }
-
-            // Process mobile recharge
-            alert(`Mobile recharge of ₹${planAmount} for ${mobileNumber} (${operator} ${rechargeType}) processed successfully!`);
-        } else {
-            const billType = serviceType;
-            const consumerNumber = document.getElementById('consumerNumber').value;
-            const amount = document.getElementById('amount').value;
-
-            // Process other bill payments
-            alert(`Payment of ₹${amount} for ${billType} bill processed successfully!`);
+        if (!selectedPlan) {
+            alert('Please select a recharge plan');
+            return;
         }
 
-        // Clear the form
-        e.target.reset();
-        handleServiceTypeChange();
-    }
+        // Handle payment processing
+        const paymentDetails = {
+            amount: selectedPlan.price,
+            operator: selectedOperator,
+            state: stateSelect.value
+        };
 
-    // Initialize form state
-    handleServiceTypeChange();
+        console.log('Processing payment:', paymentDetails);
+        alert(`Initiating payment of ₹${paymentDetails.amount}`);
+        
+        // Reset form after successful payment
+        rechargeForm.reset();
+        selectedPlan = null;
+        selectedOperator = null;
+        currentPlans = null;
+        document.querySelectorAll('.operator-option').forEach(option => {
+            option.classList.remove('border-blue-500', 'border-2');
+        });
+        planList.innerHTML = '';
+        proceedButton.classList.add('hidden');
+    });
+
+    // Add click handlers for category buttons
+    document.querySelectorAll('.plan-category').forEach(button => {
+        button.addEventListener('click', (e) => {
+            const category = e.currentTarget.dataset.category;
+            updateCategorySelection(category);
+        });
+    });
 });

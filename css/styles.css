@@ -21,6 +21,59 @@
     }
 }
 
+/* Navbar styles */
+nav {
+    height: 80px; /* Increased navbar height */
+}
+
+nav .container {
+    height: 100%;
+}
+
+nav .flex.justify-between {
+    height: 100%;
+}
+
+/* Logo size */
+nav img.h-10 {
+    height: 3.5rem; /* Increased logo size */
+    transition: transform 0.3s ease;
+}
+
+nav img.h-10:hover {
+    transform: scale(1.05);
+}
+
+/* Nav menu items */
+nav a:not(.bg-blue-600) {
+    position: relative;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 0.375rem;
+    transition: all 0.3s ease;
+}
+
+nav a:not(.bg-blue-600):hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Services dropdown button */
+nav button.text-gray-300 {
+    position: relative;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 0.375rem;
+    transition: all 0.3s ease;
+}
+
+nav button.text-gray-300:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
 /* Smooth scroll behavior */
 html {
     scroll-behavior: smooth;
@@ -94,6 +147,16 @@ html {
     background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.5) 50%, transparent 100%);
 }
 
+/* Product description text with ellipsis */
+.product-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 /* Product description text */
 #products .grid .text-base {
     line-height: 1.6;
@@ -105,7 +168,6 @@ html {
 input:focus, textarea:focus, select:focus {
     outline: none;
     border-color: #2563eb;
-    ring-color: #93c5fd;
 }
 
 /* Custom animations */
@@ -160,4 +222,166 @@ input:focus, textarea:focus, select:focus {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
+}
+
+/* Scrollable plan list with fixed proceed button */
+#planList {
+    max-height: calc(100% - 120px);  /* Adjust space for header and proceed button */
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(156, 163, 175, 0.5) transparent;
+}
+
+#planList::-webkit-scrollbar {
+    width: 6px;
+}
+
+#planList::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#planList::-webkit-scrollbar-thumb {
+    background-color: rgba(156, 163, 175, 0.5);
+    border-radius: 3px;
+}
+
+#proceedButton {
+    background: white;
+    border-top: 1px solid #e5e7eb;
+    padding-top: 1rem;
+    margin-top: auto;
+}
+
+/* Plan card hover effects */
+.plan-card:hover {
+    transform: translateY(-2px);
+}
+
+/* Scrollable container styles */
+.overflow-y-auto {
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e0 #f7fafc;
+}
+
+.overflow-y-auto::-webkit-scrollbar {
+    width: 6px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-track {
+    background: #f7fafc;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb {
+    background-color: #cbd5e0;
+    border-radius: 3px;
+}
+
+/* Proceed button styles */
+#proceedButton button:not([disabled]) {
+    background-color: #4f46e5;
+    cursor: pointer;
+}
+
+#proceedButton button:not([disabled]):hover {
+    background-color: #4338ca;
+}
+
+/* Background styles */
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+}
+
+.content-wrapper {
+    position: relative;
+    z-index: 1;
+}
+
+/* Add transparent backgrounds to sections */
+section:not(#home) {
+    position: relative;
+}
+
+section:not(#home)::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(1px);
+}
+
+/* Card backgrounds */
+.bg-white {
+    background: rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(1px);
+}
+
+/* Auth card backgrounds */
+.bg-white.auth-card {
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Bill payment card backgrounds */
+.bg-white.bill-payment-card {
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+#planCategories, #planSelection {
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(8px);
+}
+
+.plan-card {
+    background: rgba(255, 255, 255, 0.95);
+}
+
+.operator-option {
+    background: rgba(255, 255, 255, 0.95);
+}
+
+/* Plan list styles */
+#planList {
+    position: relative;
+    scroll-behavior: smooth;
+    scroll-padding-top: 1rem;
+}
+
+#planList h3.sticky {
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
+    z-index: 10;
+    border-bottom: 1px solid #e5e7eb;
+    margin: -0.5rem -1.5rem 1rem -1.5rem;
+    padding: 0.5rem 1.5rem;
+}
+
+/* Plan categories sticky header */
+#planCategories {
+    position: sticky;
+    top: 1rem;
+    z-index: 20;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
+}
+
+/* Plan card hover effects */
+.plan-card {
+    transition: all 0.2s ease;
+}
+
+.plan-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }

@@ -1,0 +1,723 @@
+{
+  "bsnl": {
+    "unlimited": {
+      "59": {
+        "validity": "7 days",
+        "data": "1GB/day",
+        "calls": "Truly unlimited voice"
+      },
+      "99": {
+        "validity": "17 days",
+        "calls": "Unlimited voice calls (Local/STD) in Home LSA and National roaming incl. Mumbai and Delhi",
+        "data": "Unlimited Data with speed reduced to 40 Kbps after 50MB data"
+      },
+      "118": {
+        "validity": "20 days",
+        "calls": "Unlimited voice calls (Local/STD) in Home LSA and National roaming incl. Mumbai and Delhi",
+        "data": "Unlimited data with speed reduced to 40 kbps after 10 GB",
+        "extras": "Free PRBT + Hardy Games+ Arena Games + Gameon Astrotell + Gameium + Lystn Podocast + Zing Music + WOW Entertainment"
+      },
+      "139": {
+        "validity": "28 days",
+        "calls": "Unlimited Voice calls all network Local/STDRoaming incl. Mumbai and Delhi",
+        "data": "Unlimited data with speed reduced to 40 kbps after 1.5GB/day",
+        "note": "Only for GP2 and beyond GP2 subscribers"
+      },
+      "147": {
+        "validity": "30 days",
+        "calls": "Unlimited voice calls Local/STD/Roaming",
+        "data": "Unlimited data with speed reduced to 40 kbps after 10 GB Data"
+      },
+      "187": {
+        "validity": "28 days",
+        "calls": "Unlimited Voice calls all network Local/STD /Roaming incl. Mumbai and Delhi",
+        "data": "Unlimited data with speed reduced to 40 kbps after 1.5GB/day",
+        "sms": "100 SMS/day"
+      },
+      "228": {
+        "validity": "1 month(recharge on the same date every month)",
+        "calls": "Unlimited voice calls Local/STD/Roaming incl. MTNL network",
+        "data": "Unlimited data with speed reduced to 40 kbps after 2GB/day",
+        "sms": "100 SMS/day"
+      },
+      "239": {
+        "validity": "1 month(recharge on the same date every month)",
+        "calls": "Unlimited voice calls Local/STD/Roaming incl.MTNL network",
+        "data": "Unlimited data with speed reduced to 40 kbps after 2GB/day",
+        "sms": "100 SMS/day",
+        "talk_value": "Rs.10 Talk value in Main Account balance",
+        "note": "Freebies validity of 1 month is not applicable to Rs.10 in main account balance"
+      },
+      "247": {
+        "validity": "30 days",
+        "talk_value": "Rs.10 Talk Value in Main account balance",
+        "data": "50GB Data at high speed (Post which unlimited @ 40 Kbps)",
+        "calls": "Unlimited voice",
+        "sms": "100 SMS/day",
+        "note": "Freebies Validity of 30 days is not applicable for Rs.10 in main account balance"
+      },
+      "299": {
+        "validity": "30 days",
+        "calls": "Unlimited voice Local/STD calls any net in Home LSA and national roaming incl.MTNL network in Mumbai and Delhi",
+        "data": "Unlimited data (speed reduced to 40 kbps after 3GB/day)",
+        "sms": "100 SMS/day including MTNL area Mumbai and Delhi"
+      },
+      "319": {
+        "validity": "65 days",
+        "calls": "Unlimited voice Local/STD calls any net in Home LSA and National roaming incl MTNL network in Mumbai and Delhi",
+        "sms": "300 SMS",
+        "data": "Unlimited data with speed reduced to 40 kbps after 10GB data"
+      },
+      "345": {
+        "validity": "60 days",
+        "calls": "Unlimited Voice calls any net Local/STD/Roaming incl. Mumbai and Delhi",
+        "data": "Unlimited data with speed reduced to 40 kbps after 1GB/day",
+        "sms": "100 SMS/day"
+      },
+      "347": {
+        "validity": "54 days",
+        "calls": "Unlimited voice",
+        "data": "Unlimited data with speed reduced to 40Kbps after 2GB/day",
+        "sms": "100 SMS/day to any Network including while Roaming in Mumbai and New Delhi"
+      },
+      "439": {
+        "validity": "90 days",
+        "calls": "Unlimited voice calls (Local/STD) any-net in Home LSA and national roaming including MTNL network in Mumbai and Delhi",
+        "sms": "300 SMS"
+      },
+      "485": {
+        "validity": "80 days",
+        "calls": "Unlimited voice calls/Day any-net (Local/STD) in Home LSA and Roaming including Mumbai and Delhi",
+        "data": "Unlimited Data with speed restricted to 40Kbps after 2GB Data/day",
+        "sms": "100 MS/day to Any Network Including while Roaming in Mumbai and New Delhi"
+      },
+      "599": {
+        "validity": "84 days",
+        "calls": "Unlimited free voice calling home and national roaming including MTNL roaming area of Delhi and Mumbai",
+        "data": "Unlimited data with speed reduced to 40kbps after 3GB/day",
+        "sms": "Free 100 SMS/day"
+      },
+      "750": {
+        "validity": "180 days",
+        "note": "This STV is for GP-II customers only",
+        "calls": "Unlimited Voice calls Local/STD/roaming incl. Mumbai and Delhi",
+        "data": "Unlimited Data with speed reduced to 40 kbps after 1 GB/day",
+        "sms": "100 SMS/day"
+      },
+      "2399": {
+        "validity": "395 days",
+        "calls": "Unlimited Voice calls all networkwork Local/STD and in Roaming",
+        "data": "Unlimited data (speed reduced to 40 kbps after 2GB/day)",
+        "sms": "100 SMS/day including MTNL area Mumbai and Delhi",
+        "charges": {
+          "voice": {
+            "local": "Rs 1/min",
+            "std": "Rs 1.3/min"
+          },
+          "video": {
+            "local_std": "Rs 2/min"
+          },
+          "sms": {
+            "local": "80p/SMS",
+            "national": "Rs 1.20/SMS",
+            "international": "Rs 6/SMS"
+          },
+          "data": "25p/MB"
+        }
+      }
+    },
+    "data": {
+      "16": {
+        "validity": "1 day",
+        "data": "Unlimited data with speed reduced to 40 kbps after 2GB DATA",
+        "note": "Plan validity extension cannot be done with this voucher"
+      },
+      "58": {
+        "validity": "7 days",
+        "data": "Unlimited data with speed reduced to 40kbps after 2GB/day"
+      },
+      "98": {
+        "validity": "18 days",
+        "data": "Unlimited Data speed reduced to 40 Kbps after 2GB/day"
+      },
+      "151": {
+        "validity": "30 days",
+        "data": "Unlimited data with speed reduced to 40 kbps after 40 GB data"
+      },
+      "198": {
+        "validity": "40 days",
+        "data": "Unlimited DATA with speed reduced to 40 Kbps after 2GB/Day"
+      },
+      "251": {
+        "validity": "60 days",
+        "data": "Unlimited Data with speed restricted to 40 Kbps after 251GB Data"
+      },
+      "411": {
+        "validity": "90 days",
+        "data": "Unlimited data with speed reduced to 40 kbps after 2GB/day"
+      },
+      "1515": {
+        "validity": "365 days",
+        "data": "Unlimited Data with speed reduced to 40/kbps after 2GB/day"
+      }
+    },
+    "validity_extension": {
+      "107": {
+        "validity": "35 days",
+        "data": "Unlimited data with speed reduced to 40 kbps after 3GB data",
+        "calls": "200 Min free voice all network Local/STD/Roaming incl. MTNL network",
+        "charges": {
+          "voice": {
+            "local": "Rs 1/min",
+            "std": "Rs 1.3/min"
+          },
+          "video": {
+            "local_std": "Rs 2/min"
+          },
+          "sms": {
+            "local": "80p/SMS",
+            "national": "Rs 1.20/SMS",
+            "international": "Rs 6/SMS"
+          },
+          "data": "25p/MB"
+        }
+      },
+      "108": {
+        "validity": "28 days",
+        "notes": [
+          "This Plan is for new customers only",
+          "Extension of the plan validity/Migration is through any other active plan"
+        ],
+        "calls": "Truly Unlimited Voice Calls including MTNL network in Mumbai and Delhi",
+        "data": "Unlimited data with speed reduced to 40Kbps after 1GB/day",
+        "freebies_validity": "28 days",
+        "charges": {
+          "voice": {
+            "local": "Rs 1/min"
+          }
+        }
+      },
+      "153": {
+        "validity": "26 days",
+        "calls": "Unlimited Voice Calls",
+        "data": "Unlimited Data with speed restricted to 40 Kbps after 26 GB",
+        "sms": "100 SMS/day"
+      },
+      "197": {
+        "validity": "70 days",
+        "calls": "Unlimited voice calls (Local/STD) any-net in Home LSA and National Roaming (incl. Mumbai and Delhi) for 15 days",
+        "data": "UL Data (speed restricted to 40 Kbps after 2GB/day) for 15 days",
+        "sms": "100 SMS/day for 15 days",
+        "charges": {
+          "voice": {
+            "local": "Rs 1/min",
+            "std": "Rs 1.3/min"
+          },
+          "video": {
+            "local_std": "Rs 2/min"
+          },
+          "sms": {
+            "local": "80p/SMS",
+            "national": "Rs 1.20/SMS",
+            "international": "Rs 6/SMS"
+          },
+          "data": "25p/MB"
+        },
+        "note": "Unlimited Data with Speed reduced to 40Kbps after 50MB data for 1st to 70th day"
+      },
+      "199": {
+        "validity": "30 days",
+        "calls": "Unlimited Voice Calls",
+        "data": "Unlimited Data (speed restricted to 40 Kbps after 2GB/day)",
+        "sms": "100 SMS/day",
+        "charges": {
+          "voice": {
+            "local": "Rs 1/min",
+            "std": "Rs 1.3/min"
+          },
+          "video": {
+            "local_std": "Rs 2/min"
+          },
+          "sms": {
+            "local": "80p/SMS",
+            "national": "Rs 1.20/SMS",
+            "international": "Rs 6/SMS"
+          },
+          "data": "25p/MB"
+        }
+      },
+      "229": {
+        "validity": "1 month(recharge on the same date every month)",
+        "calls": "Unlimited voice (Local/STD) any-net in Home LSA and national roaming incl. MTNL network in Mumbai and Delhi",
+        "data": "Unlimited data with speed reduced to 40 Kbps after 2GB/day",
+        "sms": "free 100 SMS/day",
+        "charges": {
+          "voice": {
+            "local": "Rs 1/min",
+            "std": "Rs 1.3/min"
+          },
+          "video": {
+            "local_std": "Rs 2/min"
+          },
+          "sms": {
+            "local": "80p/SMS",
+            "national": "Rs 1.20/SMS",
+            "international": "Rs 6/SMS"
+          },
+          "data": "25p/MB"
+        }
+      },
+      "249": {
+        "validity": "45 days",
+        "notes": [
+          "This Plan is for new customers only",
+          "Migration from other Plan not allowed"
+        ],
+        "calls": "Truly unlimited voice in Home LSA and National roaming including MTNL roaming area of Delhi and Mumbai",
+        "data": "Unlimited Data with speed reduced to 40 kbps after 2GB/day",
+        "sms": "100 SMS/day",
+        "freebies_validity": "45 days",
+        "charges": {
+          "voice": {
+            "local": "Rs 1/min",
+            "std": "Rs 1.3/min"
+          },
+          "video": {
+            "local_std": "Rs 2/min"
+          },
+          "sms": {
+            "local": "80p/SMS",
+            "national": "Rs 1.20/SMS",
+            "international": "Rs 6/SMS"
+          },
+          "data": "25p/MB"
+        }
+      },
+      "397": {
+        "validity": "150 days",
+        "calls": "Unlimited Voice calls Local/STD/roaming incl. MTNL network for 30 days",
+        "data": "Unlimited Data with speed reduced to 40 kbps after 2 GB/day for 30 days",
+        "sms": "100 SMS/day for 30 days",
+        "freebies_validity": "30 days",
+        "charges": {
+          "voice": {
+            "local": "Rs 1/min",
+            "std": "Rs 1.3/min"
+          },
+          "video": {
+            "local_std": "Rs 2/min"
+          },
+          "sms": {
+            "local": "80p/SMS",
+            "national": "Rs 1.20/SMS",
+            "international": "Rs 6/SMS"
+          },
+          "data": "25p/MB"
+        },
+        "note": "Unlimited Data with speed reduced to 40 Kbps after 50MB data for 1st to 150th day"
+      },
+      "559": {
+        "validity": "90 days",
+        "notes": [
+          "This Special FRC-559 is only for Citizens of Nepal and Bhutan visiting India",
+          "All other plan tariff as per plan 107",
+          "Migration to other plans not allowed"
+        ],
+        "data": "Unlimited data with speed reduced to 40 Kbps after 1GB/day",
+        "calls": "Unlimited Voice (local/STD)(on-net/off-net) in Home LSA and National Roaming incl. Mumbai and Delhi",
+        "sms": "free 100 SMS/day"
+      },
+      "897": {
+        "validity": "180 days",
+        "data": "Unlimited data with speed reduced to 40 Kbps after 90GB",
+        "calls": "Unlimited Voice(local/STD) (on-net/off-net) in Home LSA and National Roaming incl. Mumbai and Delhi",
+        "sms": "Free 100 SMS/day",
+        "note": "All other tariff as per plan 107"
+      },
+      "997": {
+        "validity": "160 days",
+        "calls": "Unlimited Voice calls Local/STD/roaming incl. Mumbai and Delhi",
+        "data": "Unlimited Data with speed reduced to 40 kbps after 2 GB/day",
+        "sms": "100 SMS/day"
+      },
+      "1198": {
+        "validity": "365 days",
+        "calls": "300min any-net voice calls in Home LSA and national roaming including MTNL area of Mumbai and Delhi",
+        "data": "Unlimited data with speed reduced to 40 kbps after 3GB Data",
+        "sms": "30SMS per month",
+        "charges": {
+          "voice": {
+            "local": "Rs 1/min",
+            "std": "Rs 1.3/min"
+          },
+          "video": {
+            "local_std": "Rs 2/min"
+          },
+          "sms": {
+            "local": "80p/SMS",
+            "national": "Rs 1.20/SMS",
+            "international": "Rs 6/SMS"
+          },
+          "data": "25p/MB"
+        }
+      },
+      "1199": {
+        "validity": "336 days",
+        "note": "This voucher is for GP2 and Beyond GP2 Customers",
+        "calls": "Unlimited Voice calls Local/STD/roaming incl.Mumbai and Delhi",
+        "sms": "100 SMS/day",
+        "data": "Unlimited data with speed reduced to 40 kbps after 24GB data to be used in 336 days"
+      },
+      "1499": {
+        "validity": "336 days",
+        "calls": "Unlimited Voice calls Local/STD/roaming incl.Mumbai and Delhi",
+        "sms": "100 SMS/day",
+        "data": "Unlimited data with speed reduced to 40 kbps after 24GB data to be used in 336 days"
+      },
+      "1999": {
+        "validity": "365 days",
+        "calls": "Unlimited Voice calls",
+        "data": "600GB High speed Data(Post which UL@40 Kbps)",
+        "sms": "100 SMS/day",
+        "charges": {
+          "voice": {
+            "local": "Rs 1/min",
+            "std": "Rs 1.3/min"
+          },
+          "video": {
+            "local_std": "Rs 2/min"
+          },
+          "sms": {
+            "local": "80p/SMS",
+            "national": "Rs 1.20/SMS",
+            "international": "Rs 6/SMS"
+          },
+          "data": "25p/MB"
+        }
+      },
+      "2399": {
+        "validity": "395 days",
+        "calls": "Unlimited Voice calls all networkwork Local/STD and in Roaming",
+        "data": "Unlimited data (speed reduced to 40 kbps after 2GB/day)",
+        "sms": "100 SMS/day including MTNL area Mumbai and Delhi",
+        "charges": {
+          "voice": {
+            "local": "Rs 1/min",
+            "std": "Rs 1.3/min"
+          },
+          "video": {
+            "local_std": "Rs 2/min"
+          },
+          "sms": {
+            "local": "80p/SMS",
+            "national": "Rs 1.20/SMS",
+            "international": "Rs 6/SMS"
+          },
+          "data": "25p/MB"
+        }
+      }
+    },
+    "talktime": {
+      "10": {
+        "validity": "NA",
+        "talktime": "7.47"
+      },
+      "20": {
+        "validity": "NA",
+        "talktime": "14.95"
+      },
+      "30": {
+        "validity": "NA",
+        "talktime": "22.42"
+      },
+      "50": {
+        "validity": "NA",
+        "talktime": "39.37"
+      },
+      "100": {
+        "validity": "NA",
+        "talktime": "81.75"
+      },
+      "220": {
+        "validity": "NA",
+        "talktime": "220"
+      },
+      "500": {
+        "validity": "NA",
+        "talktime": "500"
+      },
+      "1000": {
+        "validity": "NA",
+        "talktime": "844.46"
+      },
+      "5000": {
+        "validity": "NA",
+        "talktime": "5000"
+      }
+    },
+    "isd": {
+      "65": {
+        "validity": "30 days",
+        "calls": {
+          "malaysia": "0.49/min",
+          "bangladesh_usa_canada": "1.49/min",
+          "hong_kong": "2.49/min",
+          "china_kuwait": "2.99/min",
+          "bahrain": "9.49/min",
+          "saudi_arabia": "9.99/min",
+          "uae": "11.49/min"
+        },
+        "sms": "Rs.4/SMS to these countries",
+        "note": "Available in BSNL Home PLMN and national roaming in BSNL network only"
+      }
+    },
+    "international_roaming": {
+      "167": {
+        "validity": "90 days",
+        "description": "Activation/extension of pre-paid International roaming",
+        "note": "It is mandatory to replace Normal SIM with International Roaming SIM to avail International Roaming services"
+      },
+      "279": {
+        "validity": "28 days",
+        "location": "Singapore",
+        "features": {
+          "data": "500MB after free data to be charged at Rs.1.3/MB",
+          "voice": "175 Free Mins to India and LOCAL outgoing and incoming",
+          "sms": "50 Free SMSs"
+        },
+        "charges": {
+          "call_back_india": "Rs 10.4/min",
+          "outgoing_local": "Rs 10.4/min",
+          "outgoing_international": "Rs 54.6/min",
+          "incoming": "Rs 4.1/min",
+          "sms": "Rs 2/SMS"
+        },
+        "note": "It is mandatory to replace Normal SIM with International Roaming SIM and recharge of IR STV 57 or 167"
+      },
+      "497": {
+        "validity": "1 day",
+        "location": "UAE",
+        "features": {
+          "data": "100MB",
+          "voice": {
+            "local": "40min Mobile Originated Call(Local)",
+            "india": "40min Mobile Originated Call to India",
+            "incoming": "30min Mobile Terminated Call"
+          }
+        },
+        "note": "To avail International Roaming services it is mandatory to replace Normal SIM with International Roaming SIM and recharge of IR STV 57 or 167"
+      },
+      "511": {
+        "validity": "1 day",
+        "features": {
+          "data": "200MB",
+          "voice": "50mins International roaming calls including outgoing/incoming local calls and calls back to India",
+          "charges": {
+            "call_back_india": "Rs 10.90/min",
+            "outgoing_local": "Rs 4.6/min",
+            "outgoing_international": "Rs 52.8/min",
+            "incoming": "Rs 2/min",
+            "sms": "Rs 2/SMS"
+          }
+        },
+        "note": "To avail International Roaming services it is mandatory to replace Normal SIM with International Roaming SIM and recharge of IR STV 57 or 167"
+      },
+      "659": {
+        "validity": "1 day",
+        "features": {
+          "data": "50MB",
+          "voice": {
+            "local": "20min Mobile Originated Call(Local)",
+            "india": "20min Mobile Originated Call to India",
+            "incoming": "20min Mobile Terminated Call"
+          }
+        },
+        "note": "To avail International Roaming services it is mandatory to replace Normal SIM with International Roaming SIM and recharge of IR STV 57 or 167"
+      },
+      "705": {
+        "validity": "1 day",
+        "features": {
+          "data": "200MB",
+          "voice": {
+            "free": "30 Free mins to India/Local outgoing and incoming",
+            "sms": "5 sms free"
+          },
+          "charges": {
+            "call_back_india": "Rs 15.6/min",
+            "outgoing_local": "Rs 5.2/min",
+            "outgoing_international": "Rs 52/min",
+            "incoming": "Rs 11/min",
+            "sms": "Rs 3.9/SMS"
+          }
+        },
+        "note": "To avail International Roaming services it is mandatory to replace Normal SIM with International Roaming SIM and recharge of IR STV 57 or 167"
+      },
+      "895": {
+        "validity": "1 day",
+        "location": "Bhutan",
+        "features": {
+          "data": "200MB after free data to be charged at Rs.1.3/MB",
+          "voice": "40 Free Mins to India and local outgoing and incoming",
+          "sms": "30 Free SMSs"
+        },
+        "charges": {
+          "call_back_india": "Rs 10.4/min",
+          "outgoing_local": "Rs 10.4/min",
+          "outgoing_international": "Rs 54.6/min",
+          "incoming": "Rs 4.1/min",
+          "sms": "Rs 2/SMS"
+        },
+        "note": "To avail International Roaming services it is mandatory to replace Normal SIM with International Roaming SIM and recharge of IR STV 57 or 167"
+      },
+      "898": {
+        "validity": "3 days",
+        "location": "UAE",
+        "features": {
+          "data": "250MB",
+          "voice": {
+            "local": "120min Mobile Originated Call(Local)",
+            "india": "60min Mobile Originated Call to India",
+            "incoming": "50min Mobile Terminated Call"
+          }
+        },
+        "note": "To avail International Roaming services it is mandatory to replace Normal SIM with International Roaming SIM and recharge of IR STV 57 or 167"
+      },
+      "1359": {
+        "validity": "3 days",
+        "features": {
+          "data": "100MB",
+          "voice": {
+            "local": "60min Mobile Originated Call(Local)",
+            "india": "30min Mobile Originated Call to India",
+            "incoming": "30min Mobile Terminated Call"
+          }
+        },
+        "note": "To avail International Roaming services it is mandatory to replace Normal SIM with International Roaming SIM and recharge of IR STV 57 or 167"
+      },
+      "1379": {
+        "validity": "7 days",
+        "location": "Singapore",
+        "features": {
+          "data": "500MB after free Data to be charged at Rs.0.5/MB",
+          "voice": "140 mins of International Roaming calls which include Outgoing local calls and calls back to India and Incoming Calls only"
+        },
+        "charges": {
+          "call_back_india": "Rs 10.90/min",
+          "outgoing_local": "Rs 4.6/min",
+          "outgoing_international": "Rs 52.8/min",
+          "incoming": "Rs 2/min",
+          "sms": "Rs 2/SMS"
+        },
+        "note": "To avail International Roaming services it is mandatory to replace Normal SIM with International Roaming SIM and recharge of IR STV 57 or 167"
+      },
+      "2199": {
+        "validity": "7 days",
+        "location": "UAE",
+        "features": {
+          "data": "1000MB",
+          "voice": {
+            "local": "200min Mobile Originated Call(Local)",
+            "india": "200min Mobile Originated Call to India",
+            "incoming": "120 min Mobile Terminated Call"
+          }
+        },
+        "note": "To avail International Roaming services it is mandatory to replace Normal SIM with International Roaming SIM and recharge of IR STV 57 or 167"
+      },
+      "2311": {
+        "validity": "28 days",
+        "features": {
+          "data": "2GB",
+          "voice": "200mins International roaming calls including outgoing/incoming local calls and calls back to India",
+          "charges": {
+            "call_back_india": "Rs 10.90/min",
+            "outgoing_local": "Rs 4.6/min",
+            "outgoing_international": "Rs 52.8/min",
+            "incoming": "Rs 2/min",
+            "sms": "Rs 2/SMS"
+          }
+        },
+        "note": "To avail International Roaming services it is mandatory to replace Normal SIM with International Roaming SIM and recharge of IR STV 57 or 167"
+      },
+      "2875": {
+        "validity": "7 days",
+        "location": "Mauritus",
+        "features": {
+          "data": "1GB after free Data to be charged at Rs.0.65/MB",
+          "voice": "100 Free Mins to India and local outgoing and incoming",
+          "sms": "50 Free SMSs"
+        },
+        "charges": {
+          "call_back_india": "Rs 15.6/min",
+          "outgoing_local": "Rs 5.2/min",
+          "outgoing_international": "Rs 52/min",
+          "incoming": "Rs 11/min",
+          "sms": "Rs 3.9/SMS"
+        },
+        "note": "To avail International Roaming services it is mandatory to replace Normal SIM with International Roaming SIM and recharge of IR STV 57 or 167"
+      },
+      "2895": {
+        "validity": "7 days",
+        "location": "Bhutan",
+        "features": {
+          "data": "500MB after free data to be charged at Rs.1.3/MB",
+          "voice": "175 Free Mins to India and LOCAL outgoing and incoming",
+          "sms": "50 Free SMSs"
+        },
+        "charges": {
+          "call_back_india": "Rs 10.4/min",
+          "outgoing_local": "Rs 10.4/min",
+          "outgoing_international": "Rs 54.6/min",
+          "incoming": "Rs 4.1/min",
+          "sms": "Rs 2/SMS"
+        },
+        "note": "To avail International Roaming services it is mandatory to replace Normal SIM with International Roaming SIM and recharge of IR STV 57 or 167"
+      },
+      "3495": {
+        "validity": "7 days",
+        "notes": [
+          "Please activate IR STV 57 before activation of this STV for enabling International Roaming facility",
+          "To avail International Roaming services it is mandatory to replace Normal SIM with International Roaming SIM and recharge of IR STV 57 or 167"
+        ],
+        "features": {
+          "data": "500MB",
+          "voice": {
+            "local": "100min Mobile Originated Call(Local)",
+            "india": "100min Mobile Originated Call to India",
+            "incoming": "100min Mobile Terminated Call"
+          }
+        }
+      },
+      "3905": {
+        "validity": "28 days",
+        "features": {
+          "data": {
+            "quota": "1.5GB",
+            "charges": "Rs.0.65/MB after freebies"
+          },
+          "voice": {
+            "free": "140 Free mins to India/Local outgoing and incoming",
+            "sms": "50 sms free"
+          }
+        }
+      },
+      "4865": {
+        "validity": "28 days",
+        "location": "Bhutan",
+        "features": {
+          "data": "1GB after free Data to be charged at Rs.1.3/MB",
+          "voice": "260 Free Mins to India and local outgoing and incoming",
+          "sms": "100 Free SMSs"
+        },
+        "charges": {
+          "call_back_india": "Rs 10.4/min",
+          "outgoing_local": "Rs 10.4/min",
+          "outgoing_international": "Rs 54.6/min",
+          "incoming": "Rs 4.1/min",
+          "sms": "Rs 2/SMS"
+        },
+        "note": "To avail International Roaming services it is mandatory to replace Normal SIM with International Roaming SIM and recharge of IR STV 57 or 167"
+      }
+    }
+  }
+}
+
